@@ -112,7 +112,7 @@ class HomeController extends Controller
 
         $details = [
             'icon' => 'bi-envelope',
-            'title' => 'لقد تلقى موقع صبيا جاردن رسالة جديدة',
+            'title' => 'لقد تلقى موقع السلام رسالة جديدة',
             'body' => $request->get('message'),
             'box-style' => 'box-information',
             'actionText' => "الانتقال إلى صفحة الرسائل",
@@ -225,7 +225,7 @@ class HomeController extends Controller
 
         $details = [
             'icon' => 'bi-calendar-check',
-            'title' => 'لقد تلقى موقع صبيا جاردن موعد زيارة جديد بتاريخ ' . $request->get('date'),
+            'title' => 'لقد تلقى موقع السلام موعد زيارة جديد بتاريخ ' . $request->get('date'),
             'body' =>
             'الاسم بالكامل:' .
                 $request->get('fullName') .

@@ -158,7 +158,7 @@
           <div class="content">
 
             <!--<p class="brief-title">رؤيتنا</p> -->
-            <h1 style="font-weight: 700;" class="sabya-summary-gradient-text">نبذة عن صبيا جاردن</h1>
+            <h1 style="font-weight: 700;" class="sabya-summary-gradient-text">نبذة عن السلام</h1>
             <p style="margin-top: 35px; margin-bottom: 35px;">
               {{$home_settings->about_sabya}}
             </p>
@@ -514,7 +514,7 @@
       <div class="col-lg-4">
 
         <span class="promotion-title gradient-text ">
-          منازل فاخرة في صبيا جاردن
+          منازل فاخرة في السلام
         </span>
 
       </div>

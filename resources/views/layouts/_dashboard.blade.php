@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>لوحة التحكم - صبيا جاردن</title>
+  <title>لوحة التحكم - السلام</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -73,7 +73,7 @@
           <!-- Logo -->
           <div class="col-lg-6 col-sm-6 col-6 order-1">
             <div class="logo_container">
-              <div class="logo"><a href="/" style="color: #c39f75;">صبيا جاردن</a></div>
+              <div class="logo"><a href="/" style="color: #c39f75;">السلام</a></div>
             </div>
           </div>
 

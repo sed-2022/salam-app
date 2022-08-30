@@ -119,7 +119,7 @@
 
                                         <div class="col-12 col-xs-12">
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
-                                                <label class="label-title">نبذه عن صبيا جاردن</label>
+                                                <label class="label-title">نبذه عن السلام</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
 
                                                     <textarea id="txtid" name="about_sabya" rows="4" cols="50" class="form-control">{{$home_settings->about_sabya}}</textarea>
@@ -464,7 +464,7 @@
                                     <div class="col-lg-12 col-xs-12" style="border-top: 1px solid grey; margin-top: 25px; padding-top: 25px; padding-bottom: 25px;">
 
                                         <div class="form-group" style="display: grid; margin-top: 10px;">
-                                            <label style="font-weight: 500;">صورة الخط الفاصل منازل فاخرة في صبيا جاردن</label>
+                                            <label style="font-weight: 500;">صورة الخط الفاصل منازل فاخرة في السلام</label>
                                             <div class="align-items-center" style="display: inline-flex;">
                                                 <input type="file" name="promotional_section" onchange="loadFile(event, 'promotional_section_id')" class="form-control" value="">
                                             </div>
