@@ -64,6 +64,14 @@ class HomeController extends Controller
         return view('welcome', compact('home_settings', 'involved_company_settings', 'success_partners_settings'));
     }
 
+
+    public function ImageGallery()
+    {
+        return view('pages.image-gallery');
+    }
+
+    
+
     public function ProjectScheme()
     {
         $house_units_A = HouseReservation::where('type', 'A')->orderBy('id', 'desc')->get();

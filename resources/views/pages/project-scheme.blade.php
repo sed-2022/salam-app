@@ -264,6 +264,28 @@
         color: white;
         padding: 15px;
     }
+
+    .details-box img {
+        height: 410px;
+    }
+
+    .details-box img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .second-img:hover {
+        /**opacity: 0.9; */
+        cursor: pointer;
+    }
+
+    .second-img img {
+        transition: .2s;
+    }
+
+    .second-img:hover img {
+        transform: scale(0.94);
+    }
 </style>
 
 @endpush @section('content')
@@ -373,15 +395,27 @@
 
             <div class="row d-flex align-items-center justify-content-center" id="portfolio-header">
 
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 align-items-center justify-content-center">
                     <div class="row top-box">
-                        <h4> واجهة المشروع</h4>
+                        <h4 class="d-flex justify-content-center"> واجهة المشروع</h4>
+                    </div>
 
+                    <div class="row mt-2 details-box">
+                        <img class="img-fluid" src="/img/schem1.jpg">
                     </div>
                 </div>
 
-                <div class="col-lg-6">
 
+                <div class="col-lg-6 justify-content-center">
+                    <div class="row top-box">
+                        <h4 class="d-flex justify-content-center">الرسوم التفصيلية</h4>
+                    </div>
+
+                    <a href="/image-gallery">
+                        <div class="row mt-2 details-box second-img">
+                            <img class="img-fluid" src="/img/mobile-camera.jpg">
+                        </div>
+                    </a>
                 </div>
 
             </div>

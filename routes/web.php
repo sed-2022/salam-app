@@ -25,6 +25,9 @@ use App\Http\Controllers\AdminController;
 Route::get('/','HomeController@index');
 
 
+Route::get('/image-gallery','HomeController@ImageGallery');
+
+
 Route::get('/project-scheme','HomeController@ProjectScheme');
 
 //Contact Us
