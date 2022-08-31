@@ -31,21 +31,21 @@ return new class extends Migration
             $table->string('about_developer_photo')->nullable();
             $table->string('protoype_A_title');
             $table->string('protoype_A_photo')->nullable();
-            $table->string('protoype_A_area');
+            $table->string('A_rooms');
             $table->string('protoype_A_bulding_area');
             $table->string('protoype_A_price');
             $table->string('protoype_A_pdf')->nullable();
 
             $table->string('protoype_B_title');
             $table->string('protoype_B_photo')->nullable();
-            $table->string('protoype_B_area');
+            $table->string('B_rooms');
             $table->string('protoype_B_bulding_area');
             $table->string('protoype_B_price');
             $table->string('protoype_B_pdf')->nullable();
 
             $table->string('protoype_C_title');
             $table->string('protoype_C_photo')->nullable();
-            $table->string('protoype_C_area');
+            $table->string('C_rooms');
             $table->string('protoype_C_bulding_area');
             $table->string('protoype_C_price');
             $table->string('protoype_C_pdf')->nullable();

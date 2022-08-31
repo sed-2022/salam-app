@@ -65,15 +65,15 @@
       <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_A_photo}}')">
         <div class="informations-container">
           <div class="d-flex justify-content-center">
-            <h2 class="title">مساحة الأرض
-              <span style="margin-top: 11px;">{{$home_settings->protoype_A_area}} م<sup>2</sup></span>
+            <h2 class="title">غرف النوم
+              <span style="margin-top: 11px;">{{$home_settings->A_rooms}}</span>
 
             </h2>
 
 
             <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-            <h2 class="title">مساحة البناء
+            <h2 class="title">مساحة الشقق
 
               <span style="margin-top: 11px;">{{$home_settings->protoype_A_bulding_area}} م<sup>2</sup></span>
 
@@ -104,15 +104,15 @@
       <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_B_photo}}')">
         <div class="informations-container">
           <div class="d-flex justify-content-center">
-            <h2 class="title">مساحة الأرض
-              <span style="margin-top: 11px;">{{$home_settings->protoype_B_area}} م<sup>2</sup></span>
+            <h2 class="title">غرف النوم
+              <span style="margin-top: 11px;">{{$home_settings->B_rooms}} </span>
 
             </h2>
 
 
             <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-            <h2 class="title">مساحة البناء
+            <h2 class="title">مساحة الشقق
 
               <span style="margin-top: 11px;">{{$home_settings->protoype_B_bulding_area}} م<sup>2</sup></span>
 
@@ -142,15 +142,15 @@
       <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_C_photo}}')">
         <div class="informations-container">
           <div class="d-flex justify-content-center">
-            <h2 class="title">مساحة الأرض
-              <span style="margin-top: 11px;">{{$home_settings->protoype_C_area}} م<sup>2</sup></span>
+            <h2 class="title">غرف النوم
+              <span style="margin-top: 11px;">{{$home_settings->C_rooms}} </span>
 
             </h2>
 
 
             <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-            <h2 class="title">مساحة البناء
+            <h2 class="title">مساحة الشقق
 
               <span style="margin-top: 11px;">{{$home_settings->protoype_C_bulding_area}} م<sup>2</sup></span>
 

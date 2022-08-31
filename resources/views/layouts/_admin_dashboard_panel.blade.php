@@ -466,7 +466,7 @@
   }
 
   #seller-sidebar a.active {
-    background-color: #c39f75;
+    background-color: #cbb4d4;
     color: #3a9046 !important;
   }
 
@@ -592,7 +592,7 @@
     <li>
       <a href="/houses-A-detilas" class="tablinks {{ request()->is('houses-A-detilas') ? 'active' : '' }}">
         <i class="bi bi-table"></i>
-        <span class="links_name">تفاصيل نموذج الفلل A</span>
+        <span class="links_name">تفاصيل شقق النموذج A</span>
       </a>
     </li>
 
@@ -600,7 +600,7 @@
     <li>
       <a href="/houses-B-detilas" class="tablinks {{ request()->is('houses-B-detilas') ? 'active' : '' }}">
         <i class="bi bi-table"></i>
-        <span class="links_name">تفاصيل نموذج الفلل B</span>
+        <span class="links_name">تفاصيل شقق النموذج B</span>
       </a>
     </li>
 
@@ -608,7 +608,7 @@
     <li>
       <a href="/houses-C-detilas" class="tablinks {{ request()->is('houses-C-detilas') ? 'active' : '' }}">
         <i class="bi bi-table"></i>
-        <span class="links_name">تفاصيل نموذج الفلل C</span>
+        <span class="links_name">تفاصيل شقق النموذج C</span>
       </a>
     </li>
 

@@ -11,7 +11,7 @@
     }
 
     .add-Prod-button {
-        background-color: #c39f75;
+        background-color: #cbb4d4;
         border: none;
     }
 
@@ -119,7 +119,7 @@
 
                                         <div class="col-12 col-xs-12">
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
-                                                <label class="label-title">نبذه عن السلام</label>
+                                                <label class="label-title">نبذه عن السلام هيلز</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
 
                                                     <textarea id="txtid" name="about_sabya" rows="4" cols="50" class="form-control">{{$home_settings->about_sabya}}</textarea>
@@ -266,7 +266,7 @@
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
                                                 <label class="label-title">مساحة أرض النموذج الأول</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
-                                                    <input type="text" name="protoype_A_area" class="form-control" value="{{$home_settings->protoype_A_area}}">
+                                                    <input type="text" name="A_rooms" class="form-control" value="{{$home_settings->A_rooms}}">
                                                 </div>
                                             </div>
                                         </div>
@@ -340,7 +340,7 @@
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
                                                 <label class="label-title">مساحة أرض النموذج الثاني</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
-                                                    <input type="text" name="protoype_B_area" class="form-control" value="{{$home_settings->protoype_B_area}}">
+                                                    <input type="text" name="B_rooms" class="form-control" value="{{$home_settings->B_rooms}}">
                                                 </div>
                                             </div>
                                         </div>
@@ -415,7 +415,7 @@
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
                                                 <label class="label-title">مساحة أرض النموذج الثالث</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
-                                                    <input type="text" name="protoype_C_area" class="form-control" value="{{$home_settings->protoype_C_area}}">
+                                                    <input type="text" name="C_rooms" class="form-control" value="{{$home_settings->C_rooms}}">
                                                 </div>
                                             </div>
                                         </div>
@@ -464,7 +464,7 @@
                                     <div class="col-lg-12 col-xs-12" style="border-top: 1px solid grey; margin-top: 25px; padding-top: 25px; padding-bottom: 25px;">
 
                                         <div class="form-group" style="display: grid; margin-top: 10px;">
-                                            <label style="font-weight: 500;">صورة الخط الفاصل منازل فاخرة في السلام</label>
+                                            <label style="font-weight: 500;">صورة الخط الفاصل منازل فاخرة في السلام هيلز</label>
                                             <div class="align-items-center" style="display: inline-flex;">
                                                 <input type="file" name="promotional_section" onchange="loadFile(event, 'promotional_section_id')" class="form-control" value="">
                                             </div>

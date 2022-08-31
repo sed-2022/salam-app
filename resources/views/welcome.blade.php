@@ -119,10 +119,10 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div id="hero" class="hero carousel-item" style="background: url('https://m3l0ma.com/wp-content/uploads/2021/03/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D9%83%D9%86%D8%A8-%D8%A7%D9%84%D8%AC%D9%84%D8%AF-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D9%82%D8%B9.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero carousel-item" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
 
     </div>
-    <div id="hero" class="hero align-items-center carousel-item active" data-interval="500" style="background: url('https://m3l0ma.com/wp-content/uploads/2021/03/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D9%83%D9%86%D8%A8-%D8%A7%D9%84%D8%AC%D9%84%D8%AF-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D9%82%D8%B9.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero align-items-center carousel-item active" data-interval="500" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
       <div class="row">
         <div class="col-lg-12 d-flex flex-row justify-content-center">
           <h1 data-aos="fade-right" class="gradient-text d-flex align-items-center">منزل أحلامك </h1>
@@ -131,7 +131,7 @@
 
       </div>
     </div>
-    <div id="hero" class="hero carousel-item" style="background: url('https://m3l0ma.com/wp-content/uploads/2021/03/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%AA%D9%86%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D9%83%D9%86%D8%A8-%D8%A7%D9%84%D8%AC%D9%84%D8%AF-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D9%85%D9%86-%D8%A7%D9%84%D8%A8%D9%82%D8%B9.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero carousel-item" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
 
     </div>
   </div>
@@ -158,7 +158,10 @@
           <div class="content">
 
             <!--<p class="brief-title">رؤيتنا</p> -->
-            <h1 style="font-weight: 700;" class="sabya-summary-gradient-text">نبذة عن السلام</h1>
+            <h1 style="font-weight: 700;" class="sabya-summary-gradient-text">
+              نبذة عن عمائر السلام هيلز
+
+            </h1>
             <p style="margin-top: 35px; margin-bottom: 35px;">
               {{$home_settings->about_sabya}}
             </p>
@@ -389,15 +392,15 @@
         <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_A_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
-              <h2 class="title">مساحة الأرض
-                <span style="margin-top: 11px;">{{$home_settings->protoype_A_area}} م<sup>2</sup></span>
+              <h2 class="title">غرف النوم
+                <span style="margin-top: 11px;">{{$home_settings->A_rooms}}</span>
 
               </h2>
 
 
               <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-              <h2 class="title">مساحة البناء
+              <h2 class="title">مساحة الشقق
 
                 <span style="margin-top: 11px;">{{$home_settings->protoype_A_bulding_area}} م<sup>2</sup></span>
 
@@ -428,15 +431,15 @@
         <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_B_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
-              <h2 class="title">مساحة الأرض
-                <span style="margin-top: 11px;">{{$home_settings->protoype_B_area}} م<sup>2</sup></span>
+              <h2 class="title">غرف النوم
+                <span style="margin-top: 11px;">{{$home_settings->B_rooms}} </span>
 
               </h2>
 
 
               <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-              <h2 class="title">مساحة البناء
+              <h2 class="title">مساحة الشقق
 
                 <span style="margin-top: 11px;">{{$home_settings->protoype_B_bulding_area}} م<sup>2</sup></span>
 
@@ -466,15 +469,15 @@
         <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_C_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
-              <h2 class="title">مساحة الأرض
-                <span style="margin-top: 11px;">{{$home_settings->protoype_C_area}} م<sup>2</sup></span>
+              <h2 class="title">غرف النوم
+                <span style="margin-top: 11px;">{{$home_settings->C_rooms}} </span>
 
               </h2>
 
 
               <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
-              <h2 class="title">مساحة البناء
+              <h2 class="title">مساحة الشقق
 
                 <span style="margin-top: 11px;">{{$home_settings->protoype_C_bulding_area}} م<sup>2</sup></span>
 
@@ -514,7 +517,7 @@
       <div class="col-lg-4">
 
         <span class="promotion-title gradient-text ">
-          منازل فاخرة في السلام
+        وحدات سكنية فاخرة في السلام هيلز
         </span>
 
       </div>
@@ -617,16 +620,16 @@
         <h1 class="gradient-text intro-title">الشركات المنفذة</h1>
       </div>
 
-      <div class="row d-flex" >
+      <div class="row d-flex">
 
-        <?php $colors = array("--accent-color:#F3A22D", "--accent-color:#D3302C", "--accent-color:#495460", "--accent-color: #00bd66", "--accent-color: #00a2c1","--accent-color: #005cc1","--accent-color: #8900c1", "--accent-color: #c1006b"); ?>
+        <?php $colors = array("--accent-color:#F3A22D", "--accent-color:#D3302C", "--accent-color:#495460", "--accent-color: #00bd66", "--accent-color: #00a2c1", "--accent-color: #005cc1", "--accent-color: #8900c1", "--accent-color: #c1006b"); ?>
 
-        <?php $colorsTitle = array("#F3A22D", "#D3302C", "#495460", " #00bd66", " #00a2c1"," #005cc1"," #8900c1", "#c1006b"); ?>
+        <?php $colorsTitle = array("#F3A22D", "#D3302C", "#495460", " #00bd66", " #00a2c1", " #005cc1", " #8900c1", "#c1006b"); ?>
 
         <?php $colorIndex = 6; ?>
 
 
-        <?php $togglePos = true;?>
+        <?php $togglePos = true; ?>
         <ul class="ul-circles">
 
           @foreach($involved_company_settings as $item)
@@ -640,15 +643,19 @@
 
           <li style="<?php echo $colors[$colorIndex]; ?>">
 
-          <div class="<?php if($togglePos){ echo "top";}else{echo "bottom";}?>" style="color:<?php echo $colorsTitle[$colorIndex]; ?>">{{$item->title}}</div>
+            <div class="<?php if ($togglePos) {
+                          echo "top";
+                        } else {
+                          echo "bottom";
+                        } ?>" style="color:<?php echo $colorsTitle[$colorIndex]; ?>">{{$item->title}}</div>
 
-          <?php $togglePos = !$togglePos;?>
+            <?php $togglePos = !$togglePos; ?>
 
             <img src="/storage/images_stduio/{{$item->logo}}" class="img-fluid" alt="company logo">
 
           </li>
 
-        @endforeach
+          @endforeach
         </ul>
 
 

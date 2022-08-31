@@ -65,7 +65,7 @@
     }
 
     .gradient-text {
-        background-image: linear-gradient(315deg, #c39f75 0%, #e9b475 25%, #e9b475 50%, #c39f75 75%, #8b673d 100%);
+        background-image: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -89,7 +89,7 @@
         <div class="row">
 
             <div class="col-lg-12 d-flex flex-row justify-content-start">
-                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="sub-page-title">نموذج فلل C</h2>
+                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="sub-page-title">شقق نموذج C</h2>
             </div>
 
         </div>
@@ -141,11 +141,11 @@
 
                     <div class="row d-flex" style="margin-bottom: 2%; margin-top: 3%;">
                         <div class="col-lg-6 d-flex">
-                            <h5 class="title">مساحة الأرض: 200 م<sup>2</sup></h5>
+                            <h5 class="title">غرف النوم: 200 م<sup>2</sup></h5>
 
                             <h5 class="title" style="margin-inline-start: 2%; margin-inline-end: 2%;"> - </h5>
 
-                            <h5 class="title">مساحة البناء: 245 م<sup>2</sup></h5>
+                            <h5 class="title">مساحة الشقق: 245 م<sup>2</sup></h5>
                         </div>
                     </div>
 
@@ -161,7 +161,7 @@
                                     <div class="table-responsive">
                                         <table class="table">
                                             <tr>
-                                                <th>الدور الأرضي</th>
+                                                <th>مكونات الوحدة</th>
                                                 <th> الأبعاد الداخلية (م)</th>
                                             </tr>
                                             @foreach($ground_floor_list as $item)
@@ -275,15 +275,15 @@
 
                         <div class="d-flex justify-content-start">
                             <h5 class="title text-center">
-                                <span style="margin-top: 15px;">مساحة الأرض</span>
-                                <span style="margin-top: 5px;">{{$home_settings->protoype_C_area}} م<sup>2</sup></span>
+                                <span style="margin-top: 15px;">غرف النوم</span>
+                                <span style="margin-top: 5px;">{{$home_settings->C_rooms}} </span>
                             </h5>
 
 
                             <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
                             <h5 class="title text-center">
-                                <span style="margin-top: 15px;">مساحة البناء</span>
+                                <span style="margin-top: 15px;">مساحة الشقق</span>
                                 <span style="margin-top: 5px;">{{$home_settings->protoype_C_bulding_area}} م<sup>2</sup></span>
 
                             </h5>

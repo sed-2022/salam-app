@@ -63,7 +63,7 @@
     }
 
     .gradient-text {
-        background-image: linear-gradient(315deg, #c39f75 0%, #e9b475 25%, #e9b475 50%, #c39f75 75%, #8b673d 100%);
+        background-image: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -84,7 +84,7 @@
         <div class="row">
 
             <div class="col-lg-12 d-flex flex-row justify-content-start">
-                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="sub-page-title">نموذج فلل A</h2>
+                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="sub-page-title">شقق نموذج A</h2>
             </div>
 
         </div>
@@ -120,32 +120,6 @@
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-12">
 
-                    <!-- Tabs -->
-                    <ul class="nav nav-pills mb-3">
-                        <li>
-                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1">الطابق الأرضي</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab2">الطابق الأول</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" data-bs-toggle="pill" href="#tab3">الملحق العلوي</a>
-                        </li>
-                    </ul>
-                    <!-- End Tabs -->
-
-
-                    <div class="row d-flex" style="margin-bottom: 2%; margin-top: 3%;">
-                        <div class="col-lg-6 d-flex">
-                            <h5 class="title">مساحة الأرض: 300 م<sup>2</sup></h5>
-
-                            <h5 class="title" style="margin-inline-start: 2%; margin-inline-end: 2%;"> - </h5>
-
-                            <h5 class="title">مساحة البناء: 330 م<sup>2</sup></h5>
-                        </div>
-                    </div>
-
-
                     <!-- Tab Content -->
                     <div class="tab-content">
 
@@ -158,7 +132,7 @@
                                     <div class="table-responsive">
                                         <table class="table">
                                             <tr>
-                                                <th>الدور الأرضي</th>
+                                                <th>مكونات الوحدة</th>
                                                 <th> الأبعاد الداخلية (م)</th>
                                             </tr>
                                             @foreach($ground_floor_list as $item)
@@ -183,68 +157,6 @@
                         </div>
                         <!-- End Tab 1 Content -->
 
-                        <div class="tab-pane fade show" id="tab2">
-                            <div class="row">
-
-                                <div class="col-lg-6">
-
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <tr>
-                                                <th>الدور الأول</th>
-                                                <th> الأبعاد الداخلية (م)</th>
-                                            </tr>
-
-                                            @foreach($first_floor_list as $item)
-
-                                            <tr>
-                                                <td>{{$item->title}}</td>
-                                                <td>{{$item->length}} ✕ {{$item->width}}</td>
-                                            </tr>
-
-                                            @endforeach
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-container">
-                                    <img src="/storage/images_stduio/{{$first_floor_img->path}}" class="img-fluid" alt="">
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <!-- End Tab 2 Content -->
-
-                        <div class="tab-pane fade show" id="tab3">
-                            <div class="row">
-
-                                <div class="col-lg-6">
-
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <tr>
-                                                <th>الدور الثاني</th>
-                                                <th> الأبعاد الداخلية (م)</th>
-                                            </tr>
-                                            @foreach($second_floor_list as $item)
-
-                                            <tr>
-                                                <td>{{$item->title}}</td>
-                                                <td>{{$item->length}} ✕ {{$item->width}}</td>
-                                            </tr>
-
-                                            @endforeach
-                                        </table>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 image-container">
-                                    <img src="/storage/images_stduio/{{$second_floor_img->path}}" class="img-fluid" alt="">
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End Tab 3 Content -->
 
                     </div>
 
@@ -273,15 +185,15 @@
 
                         <div class="d-flex justify-content-start">
                             <h5 class="title text-center">
-                                <span style="margin-top: 15px;">مساحة الأرض</span>
-                                <span style="margin-top: 5px;">{{$home_settings->protoype_A_area}} م<sup>2</sup></span>
+                                <span style="margin-top: 15px;">غرف النوم</span>
+                                <span style="margin-top: 5px;">{{$home_settings->A_rooms}}</span>
                             </h5>
 
 
                             <h1 style="margin: 8px;" class="h1-style gradient-text gradient-text2 d-flex align-items-center">|</h1>
 
                             <h5 class="title text-center">
-                                <span style="margin-top: 15px;">مساحة البناء</span>
+                                <span style="margin-top: 15px;">مساحة الشقق</span>
                                 <span style="margin-top: 5px;">{{$home_settings->protoype_A_bulding_area}} م<sup>2</sup></span>
 
                             </h5>

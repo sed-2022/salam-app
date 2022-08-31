@@ -137,7 +137,7 @@
                                 <div class="row">
 
                                     <div class="section-title">
-                                        <h1 class="gradient-text">تفاصيل نموذج فلل C</h1>
+                                        <h1 class="gradient-text">تفاصيل شقق نموذج C</h1>
                                     </div>
 
 
@@ -152,7 +152,7 @@
                                                     <table class="table" id="table-ground-floor">
                                                         <tbody>
                                                             <tr>
-                                                                <th>الدور الأرضي</th>
+                                                                <th>مكونات الوحدة</th>
                                                                 <th> الأبعاد الداخلية (م)</th>
                                                             </tr>
 

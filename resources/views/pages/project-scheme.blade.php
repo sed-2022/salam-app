@@ -51,13 +51,14 @@
 
     @media (max-width: 768px) {
 
-        .download-btn{
-    font-size: 12px !important; 
-}
+        .download-btn {
+            font-size: 12px !important;
+        }
 
         .protoypes ul .booking-card .informations-container {
             transform: translateY(255px);
         }
+
         .protoypes ul .booking-card .informations-container .title {
             margin-inline-start: 6%;
         }
@@ -66,6 +67,7 @@
     .protoypes ul .booking-card .bottom-icon {
         margin-inline-start: 0%;
     }
+
     /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -159,7 +161,7 @@
     }
 
     #hero2 {
-        background: url("{{ asset('/img/background6.jpg') }}") top center;
+        background: url("{{ asset('/img/hero-bg.png') }}") top center;
         background-size: cover;
         position: relative;
         padding: 0;
@@ -190,8 +192,7 @@
 
     .loupe img {
         position: absolute;
-        right;
-        0;
+        right:0;
     }
 
     .searh_input {
@@ -220,19 +221,22 @@
     .portfolio-info ::-webkit-scrollbar {
         width: 20px;
     }
+
     /* Track */
 
     .portfolio-info ::-webkit-scrollbar-track {
         box-shadow: inset 0 0 5px grey;
         border-radius: 10px;
     }
+
     /* Handle */
 
     .portfolio-info ::-webkit-scrollbar-thumb {
-        background: #c39f75;
+        background: #cbb4d4;
         border-radius: 10px;
         height: 60px;
     }
+
     /* Handle on hover */
 
     .portfolio-info ::-webkit-scrollbar-thumb:hover {
@@ -242,14 +246,14 @@
 
     .footer-area .single-footer-widget .social-info a {
 
-    padding: 9px;
-}
+        padding: 9px;
+    }
 
 
 
-.download-btn{
-    font-size: 18px; 
-}
+    .download-btn {
+        font-size: 18px;
+    }
 </style>
 
 @endpush @section('content')
@@ -359,53 +363,11 @@
 
             <div class="row d-flex align-items-center justify-content-center" id="portfolio-header">
 
-                <div hidden class="col-lg-5">
-                    <div class="portfolio-info" style="box-shadow:none">
-
-                        <div style="margin-bottom: 15px; ">
-                            <div style="font-size: 3.5vh; font-weight: 900; display: flex; align-items: center;">
-                                <div style="background-color: green; border-radius: 50%; height: 3.5vh; width: 3.5vh;"></div>
-                                <span class="gradient-text" style="margin-inline-start: 15px;">متاح</span>
-                            </div>
-                        </div>
-
-
-                        <div style="margin-bottom: 20px; ">
-                            <div style="font-size: 3.5vh; font-weight: 900; display: flex; align-items: center;">
-                                <div style="background-color: red; border-radius: 50%; height: 3.5vh; width: 3.5vh;"></div>
-                                <span class="gradient-text" style="margin-inline-start: 15px;">مباع</span>
-                            </div>
-                        </div>
-
-                        <ul>
-                            <li><strong><i class="ri-apps-2-line gradient-text" style="font-size: 16px;"></i>{{$project_page_settings->first_promotional_text}}</strong></li>
-
-                            <li><strong><i class="ri-apps-2-line gradient-text" style="font-size: 16px;"></i>{{$project_page_settings->second_promotional_text}}</strong></li>
-
-
-                            <li><strong><i class="ri-apps-2-line gradient-text" style="font-size: 16px;"></i>{{$project_page_settings->third_promotional_text}}</strong></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-6">
 
                 </div>
 
-
-                <div class="col-lg-11 d-flex justify-content-center">
-
-                    <div class="image-magnifier">
-                        <img src="/storage/images_stduio/{{$project_page_settings->scheme_img}}" class="img-fluid" alt="">
-
-                    </div>
-
-                    <div class="loupe"></div>
-
-                </div>
-                <div class="col-lg-3 d-flex justify-content-center">
-                    
-                <a class="cool-btn-effect contact-reserve btn download-btn align-items-center d-flex" style="color:white;padding: 13px;" href="#download"> 
-                
-                <i class="ri-download-2-fill" style="margin-inline-end: 5px;"></i>
-                <span>تحميل مخطط المشروع</span> </a>
+                <div class="col-lg-6">
 
                 </div>
 
@@ -421,8 +383,8 @@
                             </div>
                             <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_A_photo}}')">
                                 <div class="informations-container">
-                                    <h2 class="title">مساحة الأرض: {{$home_settings->protoype_A_area}} م<sup>2</sup></h2>
-                                    <h2 class="title" style="margin-top: 17px;">مساحة البناء: {{$home_settings->protoype_A_bulding_area}} م<sup>2</sup></h2>
+                                    <h2 class="title">غرف النوم: {{$home_settings->A_rooms}}</h2>
+                                    <h2 class="title" style="margin-top: 17px;">مساحة الشقق: {{$home_settings->protoype_A_bulding_area}} م<sup>2</sup></h2>
                                     <div class="more-information">
                                         <div class="info-and-date-container">
                                             <div class="box">
@@ -469,8 +431,8 @@
                             </div>
                             <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_B_photo}}')">
                                 <div class="informations-container">
-                                    <h2 class="title">مساحة الأرض: {{$home_settings->protoype_B_area}} م<sup>2</sup></h2>
-                                    <h2 class="title" style="margin-top: 17px;">مساحة البناء: {{$home_settings->protoype_B_bulding_area}} م<sup>2</sup></h2>
+                                    <h2 class="title">غرف النوم: {{$home_settings->B_rooms}} </h2>
+                                    <h2 class="title" style="margin-top: 17px;">مساحة الشقق: {{$home_settings->protoype_B_bulding_area}} م<sup>2</sup></h2>
                                     <div class="more-information">
                                         <div class="info-and-date-container">
                                             <div class="box">
@@ -516,8 +478,8 @@
                             </div>
                             <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_C_photo}}')">
                                 <div class="informations-container">
-                                    <h2 class="title">مساحة الأرض: {{$home_settings->protoype_C_area}} م<sup>2</sup></h2>
-                                    <h2 class="title" style="margin-top: 17px;">مساحة البناء: {{$home_settings->protoype_C_bulding_area}} م<sup>2</sup></h2>
+                                    <h2 class="title">غرف النوم: {{$home_settings->C_rooms}} </h2>
+                                    <h2 class="title" style="margin-top: 17px;">مساحة الشقق: {{$home_settings->protoype_C_bulding_area}} م<sup>2</sup></h2>
                                     <div class="more-information">
                                         <div class="info-and-date-container">
                                             <div class="box">
@@ -535,7 +497,7 @@
 
 
                         <div class="portfolio-info">
-                             <!-- <h4>القطع المتاحة في فلل C</h4> -->
+                            <!-- <h4>القطع المتاحة في فلل C</h4> -->
                             <input type="text" placeholder="بحث" id="mySearchInput3" class="searh_input" onkeyup="filterClassCFunction()">
                             <div class="categories-content">
 

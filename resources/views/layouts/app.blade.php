@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>السلام</title>
-  <meta content="فلل فاخرة ومنازل فاخرة في السلام" name="description">
+  <title>السلام هيلز</title>
+  <meta content="فلل فاخرة ومنازل فاخرة في السلام هيلز" name="description">
 
-  <meta content="منازل , السلام, فلل فاخرة, موقع, مدونة, website, blog, عقار, فلل" name="keywords">
+  <meta content="منازل , السلام هيلز, فلل فاخرة, موقع, مدونة, website, blog, عقار, فلل" name="keywords">
 
-  <meta name="author" content="السلام">
-  <meta name="publisher" content="السلام">
+  <meta name="author" content="السلام هيلز">
+  <meta name="publisher" content="السلام هيلز">
 
-  <meta name="copyright" content="السلام">
+  <meta name="copyright" content="السلام هيلز">
 
   <meta name="page-topic" content="Villas">
   <meta name="page-type" content="Blogging">

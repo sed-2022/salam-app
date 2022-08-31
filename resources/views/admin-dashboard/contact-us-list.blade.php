@@ -64,7 +64,7 @@ a {
 
 .email-text{
   font-weight: 100;
-color:#c39f75;
+color:#cbb4d4;
 font-size: 15px;
 }
 
@@ -86,7 +86,7 @@ font-size: 15px;
 
 .card-con:hover{
 
-  color:#c39f75;
+  color:#cbb4d4;
   cursor: pointer;
 }
 
