@@ -1938,7 +1938,7 @@ section {
 .featured-services {
     padding-top: 8%;
 
-    background-color: #111;
+    background-color: whitesmoke;
     /*
     
         background-image: url("../img/background7.webp");
@@ -1980,7 +1980,7 @@ section {
 }
 
 .featured-services .icon-box h6 {
-    color: white;
+    color: #20002c;
 }
 
 .featured-services .icon-box p {
@@ -2291,7 +2291,7 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #f1eee7;
+    background: whitesmoke;
     /*box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);*/
     transition: all 0.3s ease-in-out;
     /*border-radius: 8px;*/
@@ -2300,7 +2300,8 @@ section {
 }
 
 .service-integration .icon-box2 {
-    background: whitesmoke;
+    background: #20002c;
+    color:#cbb4d4;
 }
 
 .service-integration .icon-box::before {
@@ -2347,7 +2348,7 @@ section {
 }
 
 .service-integration .icon-box:hover .icon i {
-    color: #a38563;
+    color: white;
     cursor: pointer;
 }
 
@@ -3109,8 +3110,7 @@ section {
     /* Fallback: Set a background color. */
     /* Create the gradient. */
     line-height: 1.4;
-    background-image: linear-gradient(315deg, #cbb4d4 0%, #f9ebff 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
-    /* Set the background size and repeat properties. */
+    background-image: linear-gradient(135deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);    /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
     /* Use the text as a mask for the background. */
@@ -3169,7 +3169,7 @@ section {
 }
 
 .section-title {
-    color: white;
+    color: #20002c;
     font-weight: bold;
     text-align: start;
     justify-content: flex-start;

@@ -279,7 +279,7 @@
       <div class="row" style="margin-bottom: 24px;">
         <div class="col-1"></div>
         <div class="col-11 d-flex justify-content-start" style="margin-bottom: 3% !important;padding: 0px;">
-          <h1 class="features-gradient-text" style="line-height: 2;font-weight: 600;">بيئة سكنية متكاملة ترتقي لتطلعاتكم</h1>
+          <h1 class="features-gradient-text " style="line-height: 2;font-weight: 600;">بيئة سكنية متكاملة ترتقي لتطلعاتكم</h1>
         </div>
       </div>
 
@@ -550,7 +550,7 @@
         <div class="col-sm col-4 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box icon-box2" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="ri-roadster-fill"></i></div>
-            <h4 class="title gradient-text"><span>شبكة الطرق</span></h4>
+            <h4 class="title"><span>شبكة الطرق</span></h4>
           </div>
         </div>
 
@@ -564,7 +564,7 @@
         <div class="col-sm col-4 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box icon-box2" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="ri-lightbulb-flash-line"></i></div>
-            <h4 class="title gradient-text"><span>إنارة الطرق</span></h4>
+            <h4 class="title"><span>إنارة الطرق</span></h4>
           </div>
         </div>
 
@@ -585,7 +585,7 @@
         <div class="col-sm col-4 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box icon-box2" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="ri-leaf-line"></i></div>
-            <h4 class="title gradient-text gradient-text2"><span>أرصفة وتشجير</span></h4>
+            <h4 class="title"><span>أرصفة وتشجير</span></h4>
           </div>
         </div>
 
@@ -599,7 +599,7 @@
         <div class="col-sm col-4 col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box icon-box2" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="ri-bar-chart-line"></i></div>
-            <h4 class="title gradient-text gradient-text2"><span>مسارات للمشي</span></h4>
+            <h4 class="title"><span>مسارات للمشي</span></h4>
           </div>
         </div>
 
