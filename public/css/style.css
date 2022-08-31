@@ -3521,7 +3521,7 @@ section {
     width: 40px;
     height: 40px;
     */
-    object-fit: contain;
+    object-fit: cover;
     width: 250px;
     height: 250px;
 

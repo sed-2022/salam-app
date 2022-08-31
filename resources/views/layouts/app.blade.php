@@ -137,10 +137,9 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-footer-widget">
               <div class="footer-logo">
-                <a href="#"><img src="img/logo2.png" alt=""></a>
+                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#cbb4d4;">السلام </span>هيلز</h3>
                 <h2 data-aos="fade-left" class="h1-style gradient-text gradient-text2 d-flex align-items-center aos-init aos-animate">|</h2>
-                <a href="#"><img src="img/logo3.png" alt=""></a>
-              </div>
+                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#cbb4d4;">Al Salam </span>Hielz</h3>              </div>
               <p class="change-on-mobile"> عنوانك لإختيار منزلك </p>
               <div class="change-on-mobile social-info">
                 <a href="#" class="cool-btn-effect"><i class="bi bi-youtube" aria-hidden="true"></i></a>
