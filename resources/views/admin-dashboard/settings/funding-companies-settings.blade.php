@@ -26,7 +26,9 @@
     }
     
     .add-Prod-button:hover {
-        background-color: #a47947;
+
+        background-image: -webkit-linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+
     }
     
     #certificate-row,

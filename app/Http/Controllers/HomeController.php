@@ -106,7 +106,7 @@ class HomeController extends Controller
             ),
             function ($message) use ($request) {
                 $message->from($request->get('email'));
-                $message->to('sabyagarden@gmail.com', 'Admin')->subject("رسالة من نموذج اتصل بنا");
+                $message->to('salam.hielz@gmail.com', 'Admin')->subject("رسالة من نموذج اتصل بنا");
             }
         );
 
