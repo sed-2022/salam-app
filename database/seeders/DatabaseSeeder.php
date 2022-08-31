@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         DB::table('users')->insert([
             'name' => "Admin",
             'email' => "salam.hielz@gmail.com",
-            'password' => bcrypt("salam@2022@salam"),
+            'password' => bcrypt("salam@2023@salam"),
         ]);
 
 
