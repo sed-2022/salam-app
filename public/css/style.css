@@ -3522,8 +3522,8 @@ section {
     height: 40px;
     */
     object-fit: contain;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 
     margin: 5px;
 }

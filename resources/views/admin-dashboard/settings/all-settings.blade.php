@@ -96,7 +96,6 @@
 
         <div class="col-lg-4 col-sm-6 col-12">
 
-
           <a href="/funding-companies-settings">
             <div class="info-box2 shadow-sm more-shadow">
               <span class="info-box-icon bg-item-set"><i class="bi bi-building"></i></span>
@@ -112,6 +111,23 @@
 
         </div>
 
+
+        <div class="col-lg-4 col-sm-6 col-12">
+
+          <a href="/edit-image-gallery">
+            <div class="info-box2 shadow-sm more-shadow">
+              <span class="info-box-icon bg-item-set"><i class="bi bi-images"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-number">صفحة معرض الصور</span>
+                <span class="info-box-text">إضافة صور</span>
+
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+          </a>
+
+        </div>
 
         <div class="col-md-4 col-sm-6 col-12" hidden>
 

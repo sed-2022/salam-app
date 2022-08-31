@@ -22,6 +22,7 @@ use App\Models\SucessPartners;
 use App\Models\User;
 use App\Models\HouseDetails;
 use App\Models\HouseDetailsImages;
+use App\Models\HousesImageGallery;
 
 
 use Illuminate\Http\Request;
@@ -1092,7 +1093,6 @@ class AdminController extends Controller
         }
 
         return redirect('/houses-B-detilas')->with('success', 'تم تحديث الجداول بنجاح');
-
     }
 
 
@@ -1218,9 +1218,49 @@ class AdminController extends Controller
 
 
         return redirect('/houses-C-detilas')->with('success', 'تم تحديث الجداول بنجاح');
-
     }
 
+
+    public function NavigateEditImageG()
+    {
+        $user = auth()->user();
+
+        $all_images = HousesImageGallery::all();
+
+        return view('admin-dashboard.settings.edit-image-gallery', compact('all_images', 'user'));
+    }
+
+
+    public function EditImageG(Request $request)
+    {
+    
+        $data = [];
+    
+        if ($request->hasFile('house-img')) {
+    
+            $name = $request->file('house-img')->hashName();
+    
+            $path = $request->file('house-img')->storeAs('public/images_stduio/', $name);
+    
+            $data["path"] = "/storage/images_stduio/".$name;
+        }
+    
+        HousesImageGallery::create($data);
+    
+        return back()->with('success', 'تم إضافة الصورة إلى معرض الصور');
+    }
+
+
+    public function DeleteImageG($id)
+    {
+    
+        $detail_row = HousesImageGallery::find($id);
+
+        $detail_row->delete();
+
+        return back();
+    
+    }
     public function getEmbedUrl($url)
     {
         // function for generating an embed link

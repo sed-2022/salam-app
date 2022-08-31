@@ -21,7 +21,7 @@ use App\Models\SucessPartners;
 
 use App\Models\HouseDetailsImages;
 use App\Models\HouseDetails;
-
+use App\Models\HousesImageGallery;
 
 use Illuminate\Http\Request;
 
@@ -67,7 +67,10 @@ class HomeController extends Controller
 
     public function ImageGallery()
     {
-        return view('pages.image-gallery');
+        $all_images = HousesImageGallery::all();
+        $user = auth()->user();
+
+        return view('pages.image-gallery', compact('all_images', 'user'));
     }
 
     

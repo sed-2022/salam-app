@@ -4,17 +4,15 @@
 
 
 <style>
-
-#hero2 {
-    width: 100%;
-    height: 40vh;
-    background: url("../img/mobile-camera.jpg") top center;
-    background-size: cover;
-    position: relative;
-    padding: 0;
-    background-repeat: no-repeat;
-}
-
+    #hero2 {
+        width: 100%;
+        height: 40vh;
+        background: url("../img/mobile-camera.jpg") top center;
+        background-size: cover;
+        position: relative;
+        padding: 0;
+        background-repeat: no-repeat;
+    }
 </style>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -56,22 +54,33 @@
                 <div class="card-body">
                     <div class="clinic-details">
                         <ul>
+                            @if($all_images->count()>0)
+                            @foreach($all_images as $item)
+                            <li>
+                                <a href="{{$item->path}}" data-fancybox="gallery2">
+                                    <img src="{{$item->path}}" alt="Feature Image">
+                                </a>
+                            </li>
+                            @endforeach
+                            @else
+                            <li>
+                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
+                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
+                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
+                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
+                                </a>
+                            </li>
+                            @endif
 
-                            <li>
-                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
-                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
-                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/img/features/feature-01.jpg" data-fancybox="gallery2">
-                                    <img src="/img/features/feature-01.jpg" alt="Feature Image">
-                                </a>
-                            </li>
+
 
                         </ul>
                     </div>
