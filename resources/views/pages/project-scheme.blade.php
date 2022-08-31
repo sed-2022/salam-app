@@ -161,7 +161,7 @@
     }
 
     #hero2 {
-        background: url("{{ asset('/img/hero-bg.png') }}") top center;
+        background: url("{{ asset('/img/shceme.webp') }}") top center;
         background-size: cover;
         position: relative;
         padding: 0;
@@ -192,7 +192,7 @@
 
     .loupe img {
         position: absolute;
-        right:0;
+        right: 0;
     }
 
     .searh_input {
@@ -254,6 +254,16 @@
     .download-btn {
         font-size: 18px;
     }
+
+    .gradient-text3 {
+        color: #cbb4d4
+    }
+
+    .top-box {
+        background-color: #cbb4d4;
+        color: white;
+        padding: 15px;
+    }
 </style>
 
 @endpush @section('content')
@@ -288,7 +298,7 @@
         <div class="row">
 
             <div class="col-lg-12 d-flex flex-row justify-content-start">
-                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="gradient-text">مخطط المشروع</h2>
+                <h2 style="font-size: 34px; line-height: 2; font-weight: 600;" class="gradient-text3">مخطط المشروع</h2>
             </div>
 
         </div>
@@ -363,8 +373,11 @@
 
             <div class="row d-flex align-items-center justify-content-center" id="portfolio-header">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div class="row top-box">
+                        <h4> واجهة المشروع</h4>
 
+                    </div>
                 </div>
 
                 <div class="col-lg-6">

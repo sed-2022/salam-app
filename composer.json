@@ -6,8 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
-        "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
+        "fruitcake/laravel-cors": "^2.0.5",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
@@ -17,6 +17,7 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
+        "laravel/pint": "^1.0",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
@@ -59,8 +60,9 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
-        "disable-tls": true,
-        "secure-http": false
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
