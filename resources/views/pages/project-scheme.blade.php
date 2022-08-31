@@ -279,12 +279,38 @@
         cursor: pointer;
     }
 
+    .second-img {
+        position: relative;
+    }
     .second-img img {
         transition: .2s;
     }
 
     .second-img:hover img {
         transform: scale(0.94);
+    }
+
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(57, 57, 57, 0.75);
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        transition: all 0.2s 0.1s ease-in-out;
+        color: #fff;
+        border-radius: 5px;
+        /* center overlay text */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* hover */
+    .second-img:hover .overlay {
+        transform: scale(1);
     }
 </style>
 
@@ -414,6 +440,7 @@
                     <a href="/image-gallery">
                         <div class="row mt-2 details-box second-img">
                             <img class="img-fluid" src="/img/mobile-camera.jpg">
+                            <div class="overlay"><span>اضغط هنا لعرض الصور</span></div>
                         </div>
                     </a>
                 </div>
