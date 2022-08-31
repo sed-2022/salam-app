@@ -128,7 +128,7 @@
 
 
   <!-- ##### Footer Area Start ##### -->
-  <footer class="footer-area bg-img" style="background-image: url('img/footer-background.webp');">
+  <footer class="footer-area bg-img">
     <!-- Main Footer Area -->
     <div class="main-footer-area">
       <div class="container">

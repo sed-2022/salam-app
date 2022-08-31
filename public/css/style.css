@@ -9,6 +9,8 @@ rgb(218 255 239)
 ghostwhite
 
 whitesmoke --> approved
+
+Al Salam Hielz
 */
 
 
@@ -1564,10 +1566,15 @@ section {
 .footer-area {
     position: relative;
     z-index: 1;
+
+    background: url('../img/beautiful-purple-footer-background.jpg') top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    background-repeat: no-repeat;
 }
 
-.footer-area::after {
-    background-color: rgba(4, 43, 15, 0.8);
+.footer-area:after {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1575,6 +1582,16 @@ section {
     width: 100%;
     height: 100%;
     content: "";
+}
+
+.footer-area:before {
+    content: "";
+    background: rgba(13, 20, 26, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer-area .main-footer-area {
@@ -1658,7 +1675,7 @@ section {
 
 .footer-area .single-footer-widget .widget-nav ul li a {
     display: block;
-    color: #b7b7b7;
+    color: white;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 7px;
@@ -1744,7 +1761,7 @@ section {
 
 .footer-area .footer-bottom-area .copywrite-text p {
     font-size: 14px;
-    color: #b7b7b7;
+    color: white;
     font-weight: 400;
     margin-bottom: 0;
     text-align: end;
