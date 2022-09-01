@@ -14,6 +14,11 @@
         background-repeat: no-repeat;
     }
 
+    #hero2 h2 {
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+
     @media (max-width: 768px) {
         #hero2 h2 {
             font-size: 23px !important;
