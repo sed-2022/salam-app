@@ -282,6 +282,7 @@
     .second-img {
         position: relative;
     }
+
     .second-img img {
         transition: .2s;
     }
@@ -422,13 +423,17 @@
             <div class="row d-flex align-items-center justify-content-center" id="portfolio-header">
 
                 <div class="col-lg-6 align-items-center justify-content-center">
+
+
                     <div class="row top-box">
                         <h4 class="d-flex justify-content-center"> واجهة المشروع</h4>
                     </div>
-
-                    <div class="row mt-2 details-box">
-                        <img class="img-fluid" src="/img/schem1.jpg">
-                    </div>
+                    <a href="/scheme-gallery">
+                        <div class="row mt-2 details-box second-img">
+                            <img class="img-fluid" src="/img/schem1.jpg">
+                            <div class="overlay"><span>اضغط هنا لعرض الصور</span></div>
+                        </div>
+                    </a>
                 </div>
 
 

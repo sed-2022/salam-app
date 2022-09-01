@@ -23,6 +23,7 @@ use App\Models\User;
 use App\Models\HouseDetails;
 use App\Models\HouseDetailsImages;
 use App\Models\HousesImageGallery;
+use App\Models\ProjectImageGallery;
 
 
 use Illuminate\Http\Request;
@@ -1261,6 +1262,50 @@ class AdminController extends Controller
         return back();
     
     }
+
+
+    public function NavigateEditSchemeImageG()
+    {
+        $user = auth()->user();
+    
+        $all_images = ProjectImageGallery::all();
+    
+        return view('admin-dashboard.settings.edit-scheme-gallery', compact('all_images', 'user'));
+    }
+    
+    
+    public function EditSchemeImageG(Request $request)
+    {
+    
+        $data = [];
+    
+        if ($request->hasFile('house-img')) {
+    
+            $name = $request->file('house-img')->hashName();
+    
+            $path = $request->file('house-img')->storeAs('public/images_stduio/', $name);
+    
+            $data["path"] = "/storage/images_stduio/".$name;
+        }
+    
+        ProjectImageGallery::create($data);
+    
+        return back()->with('success', 'تم إضافة الصورة إلى معرض الصور');
+    }
+    
+    
+    public function DeleteSchemeImageG($id)
+    {
+    
+        $detail_row = ProjectImageGallery::find($id);
+    
+        $detail_row->delete();
+    
+        return back();
+    
+    }
+
+
     public function getEmbedUrl($url)
     {
         // function for generating an embed link

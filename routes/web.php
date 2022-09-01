@@ -27,13 +27,20 @@ Route::get('/','HomeController@index');
 
 Route::get('/image-gallery','HomeController@ImageGallery');
 
-
 Route::get('/edit-image-gallery','AdminController@NavigateEditImageG');
 
 Route::post('/save-image-gallery','AdminController@EditImageG');
 
 Route::get('/delete-image-gallery/{id}', 'AdminController@DeleteImageG');
 
+
+Route::get('/edit-scheme-gallery','AdminController@NavigateEditSchemeImageG');
+
+Route::get('/scheme-gallery','HomeController@SchemeImageGallery');
+
+Route::post('/save-scheme-gallery','AdminController@EditSchemeImageG');
+
+Route::get('/delete-scheme-gallery/{id}', 'AdminController@DeleteSchemeImageG');
 
 
 Route::get('/project-scheme','HomeController@ProjectScheme');

@@ -22,6 +22,9 @@ use App\Models\SucessPartners;
 use App\Models\HouseDetailsImages;
 use App\Models\HouseDetails;
 use App\Models\HousesImageGallery;
+use App\Models\ProjectImageGallery;
+
+
 
 use Illuminate\Http\Request;
 
@@ -64,6 +67,14 @@ class HomeController extends Controller
         return view('welcome', compact('home_settings', 'involved_company_settings', 'success_partners_settings'));
     }
 
+
+    public function SchemeImageGallery()
+    {
+        $all_images = ProjectImageGallery::all();
+        $user = auth()->user();
+
+        return view('pages.scheme-image-gallery', compact('all_images', 'user'));
+    }
 
     public function ImageGallery()
     {

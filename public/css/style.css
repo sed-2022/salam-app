@@ -3528,8 +3528,12 @@ section {
     margin: 5px;
 }
 
-
-
 .clinic-details .custom-file img {
     object-fit: cover;
 }
+
+
+.white-background{
+    background-color: white;
+}
+
