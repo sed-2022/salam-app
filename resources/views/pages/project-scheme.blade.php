@@ -425,7 +425,7 @@
                 <div class="col-lg-6 align-items-center justify-content-center">
 
 
-                    <div class="row top-box">
+                    <div class="top-box">
                         <h4 class="d-flex justify-content-center"> واجهة المشروع</h4>
                     </div>
                     <a href="/scheme-gallery">
@@ -438,7 +438,7 @@
 
 
                 <div class="col-lg-6 justify-content-center">
-                    <div class="row top-box">
+                    <div class="top-box">
                         <h4 class="d-flex justify-content-center">الرسوم التفصيلية</h4>
                     </div>
 
