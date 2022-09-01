@@ -1990,7 +1990,7 @@ section {
 
 .featured-services .icon-box:hover h4 a,
 .featured-services .icon-box:hover .icon i {
-    color: white;
+    color: #f0d491;
     cursor: pointer;
 }
 
@@ -2343,7 +2343,7 @@ section {
 }
 
 .service-integration .title a {
-    color: #111;
+    color: #f0d491;
 }
 
 .service-integration .icon-box:hover .icon i {
@@ -2352,7 +2352,7 @@ section {
 }
 
 .service-integration .icon-box:hover .icon2 i {
-    color: #424242;
+    color: #c4a551;
     cursor: pointer;
 }
 
