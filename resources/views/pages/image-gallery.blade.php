@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-12 d-flex flex-row justify-content-start">
+            <div class="col-lg-12 d-flex flex-row justify-content-start white-background">
                 <h2 style="font-size: 34px; line-height: 2; font-weight: 700;" class="gradient-text">معرض الصور</h2>
             </div>
 
