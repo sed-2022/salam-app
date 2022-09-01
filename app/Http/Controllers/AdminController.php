@@ -420,7 +420,7 @@ class AdminController extends Controller
 
             $path = $request->file('pdf_file')->storeAs('public/images_stduio/', $name);
 
-            $data["pdf_file"] = $name;
+            $data["pdf_file"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["pdf_file"] = $home_settings->pdf_file;
@@ -438,7 +438,7 @@ class AdminController extends Controller
 
             $path = $request->file('first_slider_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["first_slider_photo"] = $name;
+            $data["first_slider_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["first_slider_photo"] = $home_settings->first_slider_photo;
@@ -456,7 +456,7 @@ class AdminController extends Controller
 
             $path = $request->file('second_slider_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["second_slider_photo"] = $name;
+            $data["second_slider_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["second_slider_photo"] = $home_settings->second_slider_photo;
@@ -474,28 +474,28 @@ class AdminController extends Controller
 
             $path = $request->file('third_slider_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["third_slider_photo"] = $name;
+            $data["third_slider_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["third_slider_photo"] = $home_settings->third_slider_photo;
         }
 
-        if ($request->hasFile('about_sabya_photo')) {
+        if ($request->hasFile('about_salam_photo')) {
 
-            $file_old = public_path('storage/images_stduio/' . $home_settings->about_sabya_photo);
+            $file_old = public_path('storage/images_stduio/' . $home_settings->about_salam_photo);
 
-            if (File::exists($file_old) && $home_settings->about_sabya_photo != "about-sabya.jpg") {
+            if (File::exists($file_old) && $home_settings->about_salam_photo != "about-sabya.jpg") {
                 unlink($file_old);
             }
 
-            $name = $request->file('about_sabya_photo')->hashName();
+            $name = $request->file('about_salam_photo')->hashName();
 
-            $path = $request->file('about_sabya_photo')->storeAs('public/images_stduio/', $name);
+            $path = $request->file('about_salam_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["about_sabya_photo"] = $name;
+            $data["about_salam_photo"] = "/storage/images_stduio/".$name;
         } else {
 
-            $data["about_sabya_photo"] = $home_settings->about_sabya_photo;
+            $data["about_salam_photo"] = $home_settings->about_salam_photo;
         }
 
         if ($request->hasFile('about_developer_photo')) {
@@ -510,7 +510,7 @@ class AdminController extends Controller
 
             $path = $request->file('about_developer_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["about_developer_photo"] = $name;
+            $data["about_developer_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["about_developer_photo"] = $home_settings->about_developer_photo;
@@ -528,7 +528,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_A_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_A_photo"] = $name;
+            $data["protoype_A_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["protoype_A_photo"] = $home_settings->protoype_A_photo;
@@ -546,7 +546,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_A_pdf')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_A_pdf"] = $name;
+            $data["protoype_A_pdf"] = "/storage/images_stduio/".$name;
         }
 
         if ($request->hasFile('protoype_B_pdf')) {
@@ -561,7 +561,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_B_pdf')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_B_pdf"] = $name;
+            $data["protoype_B_pdf"] = "/storage/images_stduio/".$name;
         }
 
         if ($request->hasFile('protoype_C_pdf')) {
@@ -576,7 +576,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_C_pdf')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_C_pdf"] = $name;
+            $data["protoype_C_pdf"] = "/storage/images_stduio/".$name;
         }
 
         if ($request->hasFile('protoype_B_photo')) {
@@ -591,7 +591,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_B_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_B_photo"] = $name;
+            $data["protoype_B_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["protoype_B_photo"] = $home_settings->protoype_B_photo;
@@ -609,7 +609,7 @@ class AdminController extends Controller
 
             $path = $request->file('protoype_C_photo')->storeAs('public/images_stduio/', $name);
 
-            $data["protoype_C_photo"] = $name;
+            $data["protoype_C_photo"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["protoype_C_photo"] = $home_settings->protoype_C_photo;
@@ -627,7 +627,7 @@ class AdminController extends Controller
 
             $path = $request->file('promotional_section')->storeAs('public/images_stduio/', $name);
 
-            $data["promotional_section"] = $name;
+            $data["promotional_section"] = "/storage/images_stduio/" .$name;
         } else {
 
             $data["promotional_section"] = $home_settings->promotional_section;
@@ -665,7 +665,7 @@ class AdminController extends Controller
 
             $path = $request->file('pdf_file')->storeAs('public/images_stduio/', $name);
 
-            $data["pdf_file"] = $name;
+            $data["pdf_file"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["pdf_file"] = $project_page_settings->pdf_file;
@@ -683,7 +683,7 @@ class AdminController extends Controller
 
             $path = $request->file('scheme_img')->storeAs('public/images_stduio/', $name);
 
-            $data["scheme_img"] = $name;
+            $data["scheme_img"] = "/storage/images_stduio/".$name;
         } else {
 
             $data["scheme_img"] = $project_page_settings->scheme_img;
@@ -714,7 +714,7 @@ class AdminController extends Controller
 
             $path = $request->file('logo')->storeAs('public/images_stduio/', $name);
 
-            $data["logo"] = $name;
+            $data["logo"] = "/storage/images_stduio/".$name;
         }
 
         FundingPageSettings::create($data);
@@ -769,7 +769,7 @@ class AdminController extends Controller
 
             $path = $request->file('logo')->storeAs('public/images_stduio/', $name);
 
-            $data["logo"] = $name;
+            $data["logo"] = "/storage/images_stduio/".$name;
         }
 
         InvolvedCompany::create($data);
@@ -805,7 +805,7 @@ class AdminController extends Controller
 
             $path = $request->file('logo')->storeAs('public/images_stduio/', $name);
 
-            $data["logo"] = $name;
+            $data["logo"] = "/storage/images_stduio/".$name;
         }
 
         SucessPartners::create($data);

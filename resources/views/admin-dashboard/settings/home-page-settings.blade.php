@@ -80,7 +80,7 @@
                                             </div>
 
 
-                                            <p><img id="f_slider" src="/storage/images_stduio/{{$home_settings->first_slider_photo}}" class="img-fluid" /></p>
+                                            <p><img id="f_slider" src="{{$home_settings->first_slider_photo}}" class="img-fluid" /></p>
                                         </div>
 
 
@@ -94,7 +94,7 @@
                                             </div>
 
 
-                                            <p><img id="s_slider" src="/storage/images_stduio/{{$home_settings->second_slider_photo}}" class="img-fluid" /></p>
+                                            <p><img id="s_slider" src="{{$home_settings->second_slider_photo}}" class="img-fluid" /></p>
                                         </div>
 
 
@@ -107,7 +107,7 @@
                                                 <small style="margin-top:10px">اختر صورة بحجم 2300 * 1396 حتى تصبح جميع الصور متطابقة</small>
                                             </div>
 
-                                            <p><img id="t_slider" src="/storage/images_stduio/{{$home_settings->third_slider_photo}}" class="img-fluid" /></p>
+                                            <p><img id="t_slider" src="{{$home_settings->third_slider_photo}}" class="img-fluid" /></p>
                                         </div>
 
                                         <div class="col-lg-12 col-xs-12" style="margin: 5px">
@@ -126,7 +126,7 @@
                                                 <label class="label-title">نبذه عن السلام هيلز</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
 
-                                                    <textarea id="txtid" name="about_sabya" rows="4" cols="50" class="form-control">{{$home_settings->about_sabya}}</textarea>
+                                                    <textarea id="txtid" name="about_salam" rows="4" cols="50" class="form-control">{{$home_settings->about_salam}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,11 +138,11 @@
                                             <div class="form-group" style="display: grid; margin-top: 10px;">
                                                 <label style="font-weight: 500;">الصورة</label>
                                                 <div class="align-items-center" style="display: inline-flex;">
-                                                    <input type="file" onchange="loadFile(event, 'about_sabya_photo_id')" name="about_sabya_photo" class="form-control" value="{{$home_settings->about_sabya_photo}}">
+                                                    <input type="file" onchange="loadFile(event, 'about_salam_photo_id')" name="about_salam_photo" class="form-control" value="{{$home_settings->about_salam_photo}}">
                                                 </div>
                                             </div>
 
-                                            <p class="mt-2"><img id="about_sabya_photo_id" src="/storage/images_stduio/{{$home_settings->about_sabya_photo}}" class="img-fluid" /></p>
+                                            <p class="mt-2"><img id="about_salam_photo_id" src="{{$home_settings->about_salam_photo}}" class="img-fluid" /></p>
                                         </div>
 
 
@@ -258,7 +258,7 @@
                                         </div>
 
                                         <div class="col-lg-4">
-                                            <p class="mt-2"><img id="protoype_A_photo_id" src="/storage/images_stduio/{{$home_settings->protoype_A_photo}}" class="img-fluid" /></p>
+                                            <p class="mt-2"><img id="protoype_A_photo_id" src="{{$home_settings->protoype_A_photo}}" class="img-fluid" /></p>
                                         </div>
 
                                     </div>
@@ -332,7 +332,7 @@
                                         </div>
 
                                         <div class="col-lg-4">
-                                            <p class="mt-2"><img id="protoype_B_photo_id" src="/storage/images_stduio/{{$home_settings->protoype_B_photo}}" class="img-fluid" /></p>
+                                            <p class="mt-2"><img id="protoype_B_photo_id" src="{{$home_settings->protoype_B_photo}}" class="img-fluid" /></p>
                                         </div>
 
                                     </div>
@@ -408,7 +408,7 @@
 
 
                                         <div class="col-lg-4">
-                                            <p class="mt-2"><img id="protoype_C_photo_id" src="/storage/images_stduio/{{$home_settings->protoype_C_photo}}" class="img-fluid" /></p>
+                                            <p class="mt-2"><img id="protoype_C_photo_id" src="{{$home_settings->protoype_C_photo}}" class="img-fluid" /></p>
                                         </div>
                                     </div>
 
@@ -474,7 +474,7 @@
                                             </div>
                                         </div>
 
-                                        <p class="mt-2"><img id="promotional_section_id" src="/storage/images_stduio/{{$home_settings->promotional_section}}" class="img-fluid" /></p>
+                                        <p class="mt-2"><img id="promotional_section_id" src="{{$home_settings->promotional_section}}" class="img-fluid" /></p>
                                     </div>
 
 

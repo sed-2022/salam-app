@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('first_slider_photo');
             $table->string('second_slider_photo');
             $table->string('third_slider_photo');
-            $table->longText('about_sabya');
-            $table->longText('about_sabya_photo')->nullable();
+            $table->longText('about_salam');
+            $table->longText('about_salam_photo')->nullable();
             $table->string('area_number');
             $table->string('units_number');
             $table->string('facilites_number');

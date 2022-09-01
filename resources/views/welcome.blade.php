@@ -105,7 +105,7 @@
       </a>
     </li>
     <li>
-      <a class="cool-btn-effect contact-reserve" style="font-size: 13px;" target="_blank" href="/storage/images_stduio/{{$home_settings->pdf_file}}">
+      <a class="cool-btn-effect contact-reserve" style="font-size: 13px;" target="_blank" href="{{$home_settings->pdf_file}}">
         <i class="contact-recall"></i>
         <span>ملف المشروع pdf</span>
       </a>
@@ -119,10 +119,10 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div id="hero" class="hero carousel-item" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero carousel-item" style="background: url('{{$home_settings->first_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
 
     </div>
-    <div id="hero" class="hero align-items-center carousel-item active" data-interval="500" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero align-items-center carousel-item active" data-interval="500" style="background: url('{{$home_settings->second_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
       <div class="row">
         <div class="col-lg-12 d-flex flex-row justify-content-center">
           <h1 data-aos="fade-right" class="gradient-text d-flex align-items-center">منزل أحلامك </h1>
@@ -131,7 +131,7 @@
 
       </div>
     </div>
-    <div id="hero" class="hero carousel-item" style="background: url('/img/background-main.jpg') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+    <div id="hero" class="hero carousel-item" style="background: url('{{$home_settings->third_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
 
     </div>
   </div>
@@ -163,14 +163,14 @@
 
             </h1>
             <p style="margin-top: 35px; margin-bottom: 35px;">
-              {{$home_settings->about_sabya}}
+              {{$home_settings->about_salam}}
             </p>
 
           </div>
         </div>
 
         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="/storage/images_stduio/{{$home_settings->about_sabya_photo}}" class="img-fluid" alt="about sabya">
+          <img src="{{$home_settings->about_salam_photo}}" class="img-fluid" alt="about sabya">
         </div>
 
       </div>
@@ -231,7 +231,7 @@
 
       <div class="row content">
         <div class="col-md-7 order-1 order-md-2" data-aos="fade-left">
-          <img src="/storage/images_stduio/{{$home_settings->about_developer_photo}}" class="img-fluid" alt="about devloper">
+          <img src="{{$home_settings->about_developer_photo}}" class="img-fluid" alt="about devloper">
         </div>
         <div class="col-md-5 order-2 order-md-1" data-aos="fade-up">
           <p class="brief-title2">عن المطور</p>
@@ -389,7 +389,7 @@
         <div class="top-title-container">
           <div class="top-title  gradient-text">{{$home_settings->protoype_A_title}}</div>
         </div>
-        <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_A_photo}}')">
+        <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('{{$home_settings->protoype_A_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
               <h2 class="title">غرف النوم
@@ -428,7 +428,7 @@
         <div class="top-title-container">
           <div class="top-title  gradient-text">{{$home_settings->protoype_B_title}}</div>
         </div>
-        <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_B_photo}}')">
+        <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('{{$home_settings->protoype_B_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
               <h2 class="title">غرف النوم
@@ -466,7 +466,7 @@
         <div class="top-title-container">
           <div class="top-title  gradient-text">{{$home_settings->protoype_C_title}}</div>
         </div>
-        <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('/storage/images_stduio/{{$home_settings->protoype_C_photo}}')">
+        <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('{{$home_settings->protoype_C_photo}}')">
           <div class="informations-container">
             <div class="d-flex justify-content-center">
               <h2 class="title">غرف النوم
@@ -511,7 +511,7 @@
     <div class="row d-flex align-items-center" style="padding-top: 0px; height: 100%;">
 
       <div class="col-lg-4 d-flex justify-content-center">
-        <img src="/storage/images_stduio/{{$home_settings->promotional_section}}" alt="Paris" width="500" height="300" style="width: 350px; height: 199px; object-fit: contain;" alt="promotion">
+        <img src="{{$home_settings->promotional_section}}" alt="Paris" width="500" height="300" style="width: 350px; height: 199px; object-fit: contain;" alt="promotion">
       </div>
 
       <div class="col-lg-4">
@@ -651,7 +651,7 @@
 
             <?php $togglePos = !$togglePos; ?>
 
-            <img src="/storage/images_stduio/{{$item->logo}}" class="img-fluid" alt="company logo">
+            <img src="{{$item->logo}}" class="img-fluid" alt="company logo">
 
           </li>
 
@@ -679,7 +679,7 @@
           <div class="customer-logos slider">
             @foreach($success_partners_settings as $item)
 
-            <div class="slide"><img src="/storage/images_stduio/{{$item->logo}}" alt="logo"></div>
+            <div class="slide"><img src="{{$item->logo}}" alt="logo"></div>
             @endforeach
 
           </div>
