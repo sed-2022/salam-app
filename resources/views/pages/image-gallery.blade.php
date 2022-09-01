@@ -13,6 +13,13 @@
         padding: 0;
         background-repeat: no-repeat;
     }
+
+    @media (max-width: 768px) {
+        #hero2 h2 {
+            font-size: 23px !important;
+        }
+    }
+    
 </style>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

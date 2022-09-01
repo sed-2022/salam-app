@@ -15,7 +15,6 @@
     }
 
     @media (max-width: 768px) {
-
         #hero2 h2 {
             font-size: 23px !important;
         }
