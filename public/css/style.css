@@ -761,7 +761,8 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
     border-top: 3px solid #d4c9b6;
     /*
     background: url("../img/about-background.webp") top center;
@@ -1704,7 +1705,8 @@ section {
 .footer-area .footer-bottom-area .border-line {
     width: 100%;
     height: 1px;
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
 }
 
 .footer-area .footer-bottom-area .copywrite-text {
@@ -1937,7 +1939,8 @@ section {
 .featured-services {
     padding-top: 8%;
 
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
     /*
     
         background-image: url("../img/background7.webp");
@@ -2046,7 +2049,8 @@ section {
 }
 
 .protoypes ul .b-card-container .top-title-container {
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
     margin: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -2129,8 +2133,9 @@ section {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
-    font-weight: bold;
+    /*/*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
+    */ font-weight: bold;
     font-size: 0.9em;
     border-end-end-radius: 0;
     border-end-start-radius: 0px;
@@ -2219,7 +2224,8 @@ section {
     -o-background-size: cover;
     background-size: cover;
     */
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
     height: 45vh;
     padding-left: 6%;
     padding-right: 6%;
@@ -2290,7 +2296,8 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
     /*box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);*/
     transition: all 0.3s ease-in-out;
     /*border-radius: 8px;*/
@@ -2300,7 +2307,7 @@ section {
 
 .service-integration .icon-box2 {
     background: whitesmoke;
-    color:#b99f5e;
+    color: #b99f5e;
 }
 
 .service-integration .icon-box::before {
@@ -2368,7 +2375,9 @@ section {
     text-align: center;
     border-top: 1px solid #d4c9b6;
     border-bottom: 1px solid #d4c9b6;
-    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    /*/*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
+    */
 }
 
 .clients2 img {
@@ -3109,7 +3118,8 @@ section {
     /* Fallback: Set a background color. */
     /* Create the gradient. */
     line-height: 1.4;
-    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);    /* Set the background size and repeat properties. */
+    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
+    /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
     /* Use the text as a mask for the background. */
@@ -3533,7 +3543,6 @@ section {
 }
 
 
-.white-background{
+.white-background {
     background-color: white;
 }
-
