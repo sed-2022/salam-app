@@ -61,7 +61,7 @@ class DatabaseSeeder extends Seeder
             'protoype_C_price' => "800000",
             'protoype_C_pdf' => "/img/apple-touch-plant-fill.png",
 
-            'promotional_section' => "/img/houses-background.jpg",
+            'promotional_section' => "/img/houses-background.webp",
 
             
         ]);
