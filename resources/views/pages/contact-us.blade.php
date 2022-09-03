@@ -42,7 +42,7 @@ background-size: cover;
 /**
 
 .navbar a, .navbar a:focus{
-    color:#cbb4d4;
+    color:#f0d491;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a{

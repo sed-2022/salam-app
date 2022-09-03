@@ -53,7 +53,7 @@
     }
 
     .text-info{
-        color: #cbb4d4 !important;
+        color: #f0d491 !important;
         margin-bottom: 1.5%;
     }
 

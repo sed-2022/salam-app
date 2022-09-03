@@ -2282,24 +2282,24 @@
      font-size: 13px;
      border: none;
      padding: 10px;
-     border: 1px solid #cbb4d4;
+     border: 1px solid #f0d491;
  }
  
  .export-btn:hover {
      background-color: white;
-     color: #cbb4d4;
+     color: #f0d491;
  }
  
  .export-btn2 {
      background-color: white;
-     border: 1px solid #cbb4d4;
-     color: #cbb4d4;
+     border: 1px solid #f0d491;
+     color: #f0d491;
      margin-right: 15px;
  }
  
  .export-btn2:hover {
-     border: 1px solid #cbb4d4;
-     background-color: #cbb4d4;
+     border: 1px solid #f0d491;
+     background-color: #f0d491;
      color: white;
  }
  
@@ -2554,7 +2554,7 @@
  /* Add a color to all links inside the list */
  
  ul.breadcrumb li a {
-     color: #cbb4d4;
+     color: #f0d491;
      text-decoration: none;
      font-size: 13px;
      font-weight: 600;
@@ -2584,13 +2584,13 @@
 
 
 .page-item.active .page-link{
-    background-color: #cbb4d4;
+    background-color: #f0d491;
     color: white;
-    border-color: #cbb4d4;
+    border-color: #f0d491;
 }
 
 .table-pagination .page-link{
-    color: #cbb4d4;
+    color: #f0d491;
 }
 
 .page-item:first-child .page-link{

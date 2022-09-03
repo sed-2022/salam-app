@@ -466,7 +466,7 @@
   }
 
   #seller-sidebar a.active {
-    background-color: #cbb4d4;
+    background-color: #f0d491;
     color: #3a9046 !important;
   }
 

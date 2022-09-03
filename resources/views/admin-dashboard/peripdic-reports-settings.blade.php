@@ -15,7 +15,7 @@
   .alert-success {
     color: #a47947;
     background-color: #fff1d0;
-    border-color: #cbb4d4;
+    border-color: #f0d491;
     margin-top: 2%;
     font-weight: 600;
     font-size: 0.9em;
@@ -30,7 +30,7 @@
 
   .delete-btn:focus {
 
-    color: #cbb4d4;
+    color: #f0d491;
   }
 
 

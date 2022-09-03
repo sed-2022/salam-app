@@ -63,7 +63,7 @@
     }
 
     .gradient-text {
-        background-image: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+        background-image: linear-gradient(315deg, #f0d491 0%, #745a7f 25%, #745a7f 50%, #f0d491 75%, #33143e 100%);
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;

@@ -232,7 +232,7 @@
     /* Handle */
 
     .portfolio-info ::-webkit-scrollbar-thumb {
-        background: #cbb4d4;
+        background: #f0d491;
         border-radius: 10px;
         height: 60px;
     }
@@ -256,11 +256,11 @@
     }
 
     .gradient-text3 {
-        color: #cbb4d4
+        color: #f0d491
     }
 
     .top-box {
-        background-color: #cbb4d4;
+        background-color: #f0d491;
         color: white;
         padding: 15px;
     }

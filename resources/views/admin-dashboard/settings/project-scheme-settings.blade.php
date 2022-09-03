@@ -11,7 +11,7 @@
     }
     
     .add-Prod-button {
-        background-color: #cbb4d4;
+        background-color: #f0d491;
         border: none;
     }
     

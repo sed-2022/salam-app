@@ -8,7 +8,7 @@
 rgb(218 255 239)
 ghostwhite
 
-#460b5b --> approved
+#20002c --> approved
 
 Al Salam Hielz
 */
@@ -31,12 +31,12 @@ body {
 }
 
 a {
-    color: #f0d491;
+    color: #c6b7aa;
     text-decoration: none;
 }
 
 a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ section {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
-    color: #f0d491;
+    color: #c6b7aa;
     content: "/";
 }
 
@@ -153,7 +153,7 @@ section {
     right: 15px;
     bottom: 15px;
     z-index: 99999;
-    background: #f0d491;
+    background: #d4c9b6;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -167,7 +167,7 @@ section {
 }
 
 .back-to-top:hover {
-    background: #85681a;
+    background: #c6b7aa;
     color: #fff;
 }
 
@@ -260,11 +260,11 @@ section {
 }
 
 #header.header-scrolled .logo a {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 #header.header-scrolled .mobile-nav-toggle {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 #header .logo {
@@ -350,7 +350,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-image: -webkit-linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: -webkit-linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -367,7 +367,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .navbar .getstarted,
@@ -376,14 +376,14 @@ section {
     margin-left: 30px;
     border-radius: 4px;
     color: #fff;
-    background-image: -webkit-linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: -webkit-linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
     transition: .5s all;
-    background-image: linear-gradient(135deg, #f0d491 0%, rgba(51, 20, 62, 0.95) 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: linear-gradient(135deg, #a9823f 0%, rgba(51, 20, 62, 0.95) 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
     border: none;
 }
 
@@ -426,7 +426,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .navbar .dropdown:hover>ul {
@@ -524,7 +524,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .navbar-mobile .getstarted,
@@ -559,7 +559,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -667,8 +667,8 @@ section {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #f0d491;
-    border: 2px solid #f0d491;
+    background: #d4c9b6;
+    border: 2px solid #d4c9b6;
 }
 
 #hero .btn-get-started:hover {
@@ -696,7 +696,7 @@ section {
 }
 
 #hero .btn-watch-video:hover i {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 @media (min-width: 1024px) {
@@ -761,8 +761,8 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-    background-color: #460b5b;
-    border-top: 3px solid #f0d491;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
+    border-top: 3px solid #d4c9b6;
     /*
     background: url("../img/about-background.webp") top center;
     background-size: cover;
@@ -787,7 +787,7 @@ section {
 .about h3 {
     font-size: 14px;
     font-weight: 700;
-    color: #f0d491;
+    color: #c6b7aa;
     text-transform: uppercase;
 }
 
@@ -804,7 +804,7 @@ section {
     padding: 15px 40px;
     border-radius: 4px;
     transition: 0.5s;
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .about .btn-read-more span {
@@ -893,7 +893,7 @@ section {
 
 .faq .accordion-button:not(.collapsed) {
     background: none;
-    color: #f0d491;
+    color: #c6b7aa;
     border-bottom: 0;
 }
 
@@ -918,19 +918,19 @@ section {
 .contact .info-box i {
     font-size: 38px;
     line-height: 0;
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .contact .info-box h3 {
     font-size: 20px;
-    color: #f0d491;
+    color: #c6b7aa;
     font-weight: 700;
     margin: 20px 0 10px 0;
 }
 
 .contact .info-box h4 {
     font-size: 20px;
-    color: #f0d491;
+    color: #c6b7aa;
     font-weight: 700;
     margin: 20px 0 10px 0;
 }
@@ -1000,7 +1000,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-    border-color: #f0d491;
+    border-color: #c6b7aa;
 }
 
 .contact .php-email-form input {
@@ -1077,12 +1077,12 @@ section {
 }
 
 .blog .entry .entry-title a {
-    color: #f0d491;
+    color: #c6b7aa;
     transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .entry .entry-meta {
@@ -1127,7 +1127,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
     display: inline-block;
-    background: #f0d491;
+    background: #d4c9b6;
     color: #fff;
     padding: 6px 20px;
     transition: 0.3s;
@@ -1170,7 +1170,7 @@ section {
     top: 0;
     bottom: 0;
     width: 3px;
-    background-color: #f0d491;
+    background-color: #c6b7aa;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -1191,7 +1191,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1250,7 +1250,7 @@ section {
     font-size: 22px;
     margin-bottom: 0px;
     padding: 0;
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .blog-author .social-links {
@@ -1300,12 +1300,12 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .blog-comments .comment h5 .reply {
     padding-left: 10px;
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -1368,7 +1368,7 @@ section {
     border-radius: 4px;
     padding: 10px 20px;
     border: 0;
-    background-color: #f0d491;
+    background-color: #c6b7aa;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
@@ -1392,7 +1392,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-    color: #f0d491;
+    color: #c6b7aa;
     padding: 7px 16px;
     display: flex;
     align-items: center;
@@ -1401,7 +1401,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-    background: #f0d491;
+    background: #d4c9b6;
 }
 
 .blog .blog-pagination li.active a,
@@ -1420,7 +1420,7 @@ section {
     font-weight: 700;
     padding: 0 0 0 0;
     margin: 0 0 15px 0;
-    color: #f0d491;
+    color: #c6b7aa;
     position: relative;
 }
 
@@ -1452,7 +1452,7 @@ section {
     font-size: 16px;
     padding: 0 15px;
     margin: -1px;
-    background: #f0d491;
+    background: #d4c9b6;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
@@ -1477,12 +1477,12 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-    color: #f0d491;
+    color: #c6b7aa;
     transition: 0.3s;
 }
 
 .blog .sidebar .categories ul a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .sidebar .categories ul a span {
@@ -1507,12 +1507,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-    color: #f0d491;
+    color: #c6b7aa;
     transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .blog .sidebar .recent-posts time {
@@ -1548,8 +1548,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
     color: #fff;
-    border: 1px solid #f0d491;
-    background: #f0d491;
+    border: 1px solid #d4c9b6;
+    background: #d4c9b6;
 }
 
 .blog .sidebar .tags ul a span {
@@ -1620,7 +1620,7 @@ section {
 
 .footer-area .single-footer-widget .social-info a {
     display: inline-block;
-    /*border: 1px solid #f0d491;*/
+    /*border: 1px solid #d4c9b6;*/
     color: white;
     width: 40px;
     height: 40px;
@@ -1704,7 +1704,7 @@ section {
 .footer-area .footer-bottom-area .border-line {
     width: 100%;
     height: 1px;
-    background-color: #460b5b;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
 }
 
 .footer-area .footer-bottom-area .copywrite-text {
@@ -1937,7 +1937,7 @@ section {
 .featured-services {
     padding-top: 8%;
 
-    background-color: #460b5b;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
     /*
     
         background-image: url("../img/background7.webp");
@@ -1967,7 +1967,7 @@ section {
 }
 
 .featured-services .icon-box .icon i {
-    color: #f0d491;
+    color: #c6b7aa;
     font-size: 54px;
     transition: ease-in-out 0.3s;
 }
@@ -1979,7 +1979,7 @@ section {
 }
 
 .featured-services .icon-box h6 {
-    color: whitesmoke;
+    color: white;
 }
 
 .featured-services .icon-box p {
@@ -1990,12 +1990,12 @@ section {
 
 .featured-services .icon-box:hover h4 a,
 .featured-services .icon-box:hover .icon i {
-    color: #f0d491;
+    color: white;
     cursor: pointer;
 }
 
 .featured-services .icon-box:hover .icon {
-    color: #460b5b;
+    color: #20002c;
 }
 
 .featured-services .icon-box-bottom {
@@ -2046,7 +2046,7 @@ section {
 }
 
 .protoypes ul .b-card-container .top-title-container {
-    background-color: #460b5b;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
     margin: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -2079,7 +2079,7 @@ section {
     transform: translateY(300px);
     /*transform: translateY(316px);*/
     transition: 0.3s;
-    border-left: 3px solid #f0d491;
+    border-left: 3px solid #d4c9b6;
 }
 
 .protoypes ul .booking-card .informations-container .title {
@@ -2129,7 +2129,7 @@ section {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    /*background: #460b5b;*/
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
     font-weight: bold;
     font-size: 0.9em;
     border-end-end-radius: 0;
@@ -2219,7 +2219,7 @@ section {
     -o-background-size: cover;
     background-size: cover;
     */
-    background-color: #460b5b;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
     height: 45vh;
     padding-left: 6%;
     padding-right: 6%;
@@ -2229,16 +2229,16 @@ section {
     background-size: 200% 200%;
     transition: all 0.5s ease 0s;
     background-repeat: no-repeat;
-    background-image: -webkit-linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
-    background-image: -moz-linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
-    background-image: linear-gradient(135deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: -webkit-linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
+    background-image: -moz-linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
+    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
 }
 
 .cool-btn-effect:hover {
     box-shadow: none;
     color: rgb(255, 255, 255) !important;
     background-position: 100% 100%;
-    background-image: linear-gradient(135deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
 }
 
 .cool-text-effect {
@@ -2290,7 +2290,7 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #460b5b;
+    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);
     /*box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);*/
     transition: all 0.3s ease-in-out;
     /*border-radius: 8px;*/
@@ -2300,7 +2300,7 @@ section {
 
 .service-integration .icon-box2 {
     background: whitesmoke;
-    color:#f0d491;
+    color:#b99f5e;
 }
 
 .service-integration .icon-box::before {
@@ -2322,14 +2322,14 @@ section {
 .service-integration .icon i {
     font-size: 48px;
     line-height: 1;
-    color: #f0d491;
+    color: #b99f5e;
     transition: all 0.3s ease-in-out;
     display: flex;
     justify-content: flex-end;
 }
 
 .service-integration .icon2 i {
-    color: #111;
+    color: #dbd3c7;
 }
 
 .service-integration .title {
@@ -2343,16 +2343,16 @@ section {
 }
 
 .service-integration .title a {
-    color: #f0d491;
+    color: #111;
 }
 
 .service-integration .icon-box:hover .icon i {
-    color: white;
+    color: #c6b7aa;
     cursor: pointer;
 }
 
 .service-integration .icon-box:hover .icon2 i {
-    color: #c4a551;
+    color: #cab991;
     cursor: pointer;
 }
 
@@ -2366,9 +2366,9 @@ section {
     padding-top: 7%;
     padding-bottom: 7%;
     text-align: center;
-    border-top: 1px solid #f0d491;
-    border-bottom: 1px solid #f0d491;
-    /*background-color: #460b5b;*/
+    border-top: 1px solid #d4c9b6;
+    border-bottom: 1px solid #d4c9b6;
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
 }
 
 .clients2 img {
@@ -2466,8 +2466,8 @@ section {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #f0d491;
-    border: 2px solid #f0d491;
+    background: #d4c9b6;
+    border: 2px solid #d4c9b6;
 }
 
 #hero2 .btn-get-started:hover {
@@ -2495,7 +2495,7 @@ section {
 }
 
 #hero2 .btn-watch-video:hover i {
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 @media (min-width: 1024px) {
@@ -2539,7 +2539,7 @@ section {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
-    color: #f0d491;
+    color: #c6b7aa;
     padding: 12px 0;
     margin-right: 25px;
     margin-bottom: -2px;
@@ -2547,22 +2547,22 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-    color: #85681a;
-    border-bottom: 3px solid #85681a;
+    color: #c6b7aa;
+    border-bottom: 3px solid #c6b7aa;
 }
 
 .features .feture-tabs .tab-content h4 {
     font-size: 18px;
     margin: 0;
     font-weight: 700;
-    color: #f0d491;
+    color: #c6b7aa;
 }
 
 .features .feture-tabs .tab-content i {
     font-size: 24px;
     line-height: 0;
     margin-right: 8px;
-    color: #85681a;
+    color: #c6b7aa;
 }
 
 .features .feature-icons .content .icon-box p {
@@ -3077,7 +3077,7 @@ section {
     /* Fallback: Set a background color. */
     /* Create the gradient. */
     line-height: 1.4;
-    background-image: linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
     /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
@@ -3092,7 +3092,7 @@ section {
 
 .sabya-summary-gradient-text {
     line-height: 1.4;
-    background-image: linear-gradient(315deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #c7a453 75%, #f0d491 100%);
+    background-image: linear-gradient(315deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #dfd7cd 75%, #d4c9b6 100%);
     /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
@@ -3109,7 +3109,7 @@ section {
     /* Fallback: Set a background color. */
     /* Create the gradient. */
     line-height: 1.4;
-    background-image: linear-gradient(135deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);    /* Set the background size and repeat properties. */
+    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);    /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
     /* Use the text as a mask for the background. */
@@ -3122,7 +3122,7 @@ section {
 }
 
 .gradient-text2 {
-    background-image: linear-gradient(135deg, #f0d491 0%, #c7a453 25%, #c7a453 50%, #f0d491 75%, #85681a 100%);
+    background-image: linear-gradient(135deg, #a9823f 0%, #dfd7cd 25%, #ab832d 50%, #d4c9b6 75%, #c6b7aa 100%);
 }
 
 .brief-title {
@@ -3168,7 +3168,7 @@ section {
 }
 
 .section-title {
-    color: whitesmoke;
+    color: white;
     font-weight: bold;
     text-align: start;
     justify-content: flex-start;
@@ -3211,7 +3211,8 @@ section {
 
 .contact-us-menue .contact-reserve {
     font-size: 15px;
-    color: white;
+    color: #33143e;
+    border: 1px solid #dfd2b0;
 }
 
 .contact-us-menue>li>a>span {
@@ -3266,12 +3267,12 @@ section {
 }
 
 .logout-btn {
-    color: #460b5b;
+    color: #20002c;
     padding-inline-start: 15px;
 }
 
 .logout-btn:focus {
-    background-color: #f0d491;
+    background-color: #c6b7aa;
     color: white;
 }
 
@@ -3293,7 +3294,7 @@ section {
 }
 
 .dropdown-menu .dropdown-item {
-    color: whitesmoke !important;
+    color: white !important;
     padding: 3%;
     padding-inline-start: 7%;
     border-bottom: 1px solid rgb(235, 235, 235);
@@ -3302,7 +3303,7 @@ section {
 .dropdown-menu .dropdown-item:focus {
     padding-inline-start: 7%;
     padding: 3%;
-    background-color: #f0d491;
+    background-color: #c6b7aa;
     color: white !important;
 }
 
@@ -3311,7 +3312,7 @@ section {
 }
 
 .form-control:focus {
-    border: 1px solid #f0d491;
+    border: 1px solid #d4c9b6;
 }
 
 .control-panel.dropdown-toggle::after {

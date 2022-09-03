@@ -73,7 +73,7 @@
           <!-- Logo -->
           <div class="col-lg-6 col-sm-6 col-6 order-1">
             <div class="logo_container">
-              <div class="logo"><a href="/" style="color: #cbb4d4;">السلام هيلز</a></div>
+              <div class="logo"><a href="/" style="color: #f0d491;">السلام هيلز</a></div>
             </div>
           </div>
 
