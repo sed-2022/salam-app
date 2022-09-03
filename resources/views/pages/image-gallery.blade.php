@@ -110,6 +110,8 @@
 
 
 <script>
+    $.fancybox.defaults.thumbs.autoStart = true;
+
     function filterClassAFunction() {
         var input, filter, ul, li, i;
         input = document.getElementById("mySearchInput1");

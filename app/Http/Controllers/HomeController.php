@@ -36,8 +36,11 @@ use App\Models\User;
 use App\Notifications\UserNotification;
 
 
-use Notification;
+//use Notification;
 
+use Illuminate\Support\Facades\Notification;
+
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -118,7 +121,7 @@ class HomeController extends Controller
         //  Store data in database
         ContactUs::create($request->all());
 
-        \Mail::send(
+        Mail::send(
             'email.mail',
             array(
                 'name' => $request->get('name'),

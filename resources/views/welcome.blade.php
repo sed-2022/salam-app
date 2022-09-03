@@ -121,6 +121,14 @@
   <div class="carousel-inner">
     <div id="hero" class="hero carousel-item" style="background: url('{{$home_settings->first_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
 
+      <div class="row">
+        <div class="col-lg-12 d-flex flex-row justify-content-center">
+          <h1 data-aos="fade-right" class="gradient-text d-flex align-items-center">منزل أحلامك </h1>
+          <h1 data-aos="fade-left" class="h1-style gradient-text gradient-text2 d-flex align-items-center"> | شغفنا</h1>
+        </div>
+
+      </div>
+
     </div>
     <div id="hero" class="hero align-items-center carousel-item active" data-interval="500" style="background: url('{{$home_settings->second_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
       <div class="row">
@@ -132,7 +140,13 @@
       </div>
     </div>
     <div id="hero" class="hero carousel-item" style="background: url('{{$home_settings->third_slider_photo}}') top center;background-size: cover; position: relative; padding: 0; background-repeat: no-repeat;">
+      <div class="row">
+        <div class="col-lg-12 d-flex flex-row justify-content-center">
+          <h1 data-aos="fade-right" class="gradient-text d-flex align-items-center">منزل أحلامك </h1>
+          <h1 data-aos="fade-left" class="h1-style gradient-text gradient-text2 d-flex align-items-center"> | شغفنا</h1>
+        </div>
 
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -517,7 +531,7 @@
       <div class="col-lg-4">
 
         <span class="promotion-title gradient-text ">
-        وحدات سكنية فاخرة في السلام هيلز
+          وحدات سكنية فاخرة في السلام هيلز
         </span>
 
       </div>
