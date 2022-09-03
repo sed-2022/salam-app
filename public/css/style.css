@@ -2134,8 +2134,7 @@ section {
     -moz-border-radius: 10px;
     border-radius: 10px;
     /*/*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
-    */ font-weight: bold;
+    font-weight: bold;
     font-size: 0.9em;
     border-end-end-radius: 0;
     border-end-start-radius: 0px;
