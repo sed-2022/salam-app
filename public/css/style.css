@@ -762,12 +762,19 @@ section {
 
 .about {
     /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
-    border-top: 3px solid #d4c9b6;
-    /*
+    /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
+    
     background: url("../img/about-background.webp") top center;
     background-size: cover;
     */
+    border-top: 3px solid #d4c9b6;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-top: 3px solid #d4c9b6;
+    background: url("../img/background2.jpg") top center;
+    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
 }
@@ -2284,12 +2291,14 @@ section {
 --------------------------------------------------------------*/
 
 .service-integration {
-    background-image: url("../img/background5.webp");
+    background-image: url("../img/background4.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+
 
 .service-integration .icon-box {
     padding: 30px;
