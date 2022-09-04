@@ -401,7 +401,7 @@
     <ul class="d-flex justify-content-center">
       <li class="col-lg-4 col-xs-12 b-card-container" onclick="location.href='/prototyp-A'">
         <div class="top-title-container">
-          <div class="top-title  gradient-text">{{$home_settings->protoype_A_title}}</div>
+          <div class="top-title">{{$home_settings->protoype_A_title}}</div>
         </div>
         <div class="booking-card" onclick="location.href='/prototyp-A'" style="background-image: url('{{$home_settings->protoype_A_photo}}')">
           <div class="informations-container">
@@ -440,7 +440,7 @@
 
       <li class="col-lg-4 col-xs-12 b-card-container" onclick="location.href='/prototyp-B'">
         <div class="top-title-container">
-          <div class="top-title  gradient-text">{{$home_settings->protoype_B_title}}</div>
+          <div class="top-title">{{$home_settings->protoype_B_title}}</div>
         </div>
         <div class="booking-card" onclick="location.href='/prototyp-B'" style="background-image: url('{{$home_settings->protoype_B_photo}}')">
           <div class="informations-container">
@@ -462,7 +462,7 @@
             <div class="more-information">
               <div class="info-and-date-container">
                 <div class="box">
-                  <div class="top-title  gradient-text"> {{number_format($home_settings->protoype_B_price)}}
+                  <div class="top-title"> {{number_format($home_settings->protoype_B_price)}}
                     ريال
                   </div>
                   <div class="top-title  gradient-text bottom-icon"><span style="font-size: 0.5em; margin-inline-end: 3px;">تفاصيل</span><i class="go-left-arr">←</i></div>
@@ -478,7 +478,7 @@
       </li>
       <li class="col-lg-4 col-xs-12 b-card-container" onclick="location.href='/prototyp-C'">
         <div class="top-title-container">
-          <div class="top-title  gradient-text">{{$home_settings->protoype_C_title}}</div>
+          <div class="top-title">{{$home_settings->protoype_C_title}}</div>
         </div>
         <div class="booking-card" onclick="location.href='/prototyp-C'" style="background-image: url('{{$home_settings->protoype_C_photo}}')">
           <div class="informations-container">

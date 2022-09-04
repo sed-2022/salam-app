@@ -2055,9 +2055,13 @@ section {
     padding-right: 0px;
 }
 
+
+
 .protoypes ul .b-card-container .top-title-container {
     /*background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #cbb4d4 75%, #33143e 100%);*/
-    background: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
+    background-image:  linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);;
+    background-size: 100%;
+    background-repeat: repeat;
     margin: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -2071,6 +2075,11 @@ section {
     margin-inline-start: 9%;
     justify-content: center;
 }
+
+.protoypes .top-title{
+    color: #f8f2fb;
+}
+
 
 .protoypes ul .booking-card::before {
     content: '';
@@ -2259,9 +2268,9 @@ section {
 
 .promotion .btn-contact {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .promotion .btn-contact2 {
