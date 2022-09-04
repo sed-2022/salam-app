@@ -161,7 +161,7 @@
     }
 
     #hero2 {
-        background: url("{{ asset('/img/shceme.webp') }}") top center;
+        background: url("{{ asset('/img/shceme.jpg') }}") top center;
         background-size: cover;
         position: relative;
         padding: 0;
