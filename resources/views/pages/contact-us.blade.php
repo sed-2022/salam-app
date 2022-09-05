@@ -84,7 +84,7 @@ background-size: cover;
                 <div class="row align-items-center">
 
                     <div class="col-lg-7">                        
-                        <form action="/send-message"  method="post" enctype="multipart/form-data">
+                        <form class="php-email-form"  role="form" action="/send-message"  method="post" enctype="multipart/form-data">
                         @csrf 
                             <div class="row gy-4">
 
