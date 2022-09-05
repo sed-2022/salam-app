@@ -112,15 +112,46 @@ class HomeController extends Controller
     public function ContactUsForm(Request $request)
     {
         // Form validation
-        $this->validate($request, [
+        
+        /**
+         *    $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
             'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
             'message' => 'required',
         ]);
+         * 
+         */
         //  Store data in database
         ContactUs::create($request->all());
 
+        Mail::send(
+            'email.mail',
+            array(
+                'name' => $request->get('name'),
+                'email' => $request->get('email'),
+                'phone' => $request->get('phone'),
+                'user_query' => $request->get('message'),
+            ),
+            function ($message) use ($request) {
+                $message->from($request->get('email'));
+                $message->to('salam.hielz@gmail.com', 'Admin')->subject("رسالة من نموذج اتصل بنا");
+            }
+        );
+
+        $details = [
+            'icon' => 'bi-envelope',
+            'title' => 'لقد تلقى موقع السلام هيلز رسالة جديدة',
+            'body' => $request->get('message'),
+            'box-style' => 'box-information',
+            'actionText' => "الانتقال إلى صفحة الرسائل",
+            'actionURL' => url('/all-contactus-messages'),
+            'user_id' => 1,
+        ];
+
+        $targetUser = User::find(1);
+
+        Notification::send($targetUser, new UserNotification($details));
 
         return back()->with('success', 'لقد تم استلام رسالتك، شكرًا لتواصلك معنا.');
     }
