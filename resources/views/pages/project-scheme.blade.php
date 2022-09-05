@@ -263,6 +263,15 @@
         background-color: #f0d491;
         color: white;
         padding: 15px;
+        background-image: linear-gradient(315deg, #cbb4d4 0%, #745a7f 25%, #745a7f 50%, #745a7f 75%, #33143e 100%);
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+
+    .top-box h4{
+        color: #f8f2fb;
+        font-weight: bold;
+        margin-bottom: 0px;
     }
 
     .details-box img {

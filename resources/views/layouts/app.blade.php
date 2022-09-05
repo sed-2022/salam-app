@@ -137,15 +137,15 @@
           <div class="col-12 col-sm-6 col-lg-4">
             <div class="single-footer-widget">
               <div class="footer-logo">
-                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#f0d491;">السلام </span>هيلز</h3>
+                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#d0b993;">السلام </span>هيلز</h3>
                 <h2 data-aos="fade-left" class="h1-style gradient-text gradient-text2 d-flex align-items-center aos-init aos-animate">|</h2>
-                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#f0d491;">Al Salam </span>Hielz</h3>              </div>
+                <h3 style="color:white;font-weight:bold;margin-inline-end: 9px;"><span style="color:#d0b993;">Al Salam </span>Hielz</h3>              </div>
               <p class="change-on-mobile"> عنوانك لإختيار منزلك </p>
               <div class="change-on-mobile social-info">
-                <a href="#" class="cool-btn-effect"><i class="bi bi-youtube" aria-hidden="true"></i></a>
-                <a href="#" class="cool-btn-effect"><i class="bi bi-twitter" aria-hidden="true"></i></a>
-                <a href="#" class="cool-btn-effect"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-                <a href="#" class="cool-btn-effect"><i class="bi bi-snapchat" aria-hidden="true"></i></a>
+                <a href="#" class="cool-btn-effect2"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+                <a href="#" class="cool-btn-effect2"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="cool-btn-effect2"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="cool-btn-effect2"><i class="bi bi-snapchat" aria-hidden="true"></i></a>
               </div>
 
             </div>

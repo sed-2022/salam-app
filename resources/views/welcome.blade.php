@@ -462,7 +462,7 @@
             <div class="more-information">
               <div class="info-and-date-container">
                 <div class="box">
-                  <div class="top-title"> {{number_format($home_settings->protoype_B_price)}}
+                  <div class="top-title  gradient-text"> {{number_format($home_settings->protoype_B_price)}}
                     ريال
                   </div>
                   <div class="top-title  gradient-text bottom-icon"><span style="font-size: 0.5em; margin-inline-end: 3px;">تفاصيل</span><i class="go-left-arr">←</i></div>
