@@ -16,7 +16,7 @@
 
   #hero2 {
     height: 50vh;
-    background: url("{{ asset('/img/houses-background.webp') }}") top center;
+    background: url("{{ asset('/img/houses-background2.webp') }}") top center;
 
     background-size: cover;
     position: relative;
