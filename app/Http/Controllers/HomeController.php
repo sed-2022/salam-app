@@ -87,7 +87,7 @@ class HomeController extends Controller
         return view('pages.image-gallery', compact('all_images', 'user'));
     }
 
-    
+
 
     public function ProjectScheme()
     {
@@ -112,7 +112,7 @@ class HomeController extends Controller
     public function ContactUsForm(Request $request)
     {
         // Form validation
-        
+
         /**
          *    $this->validate($request, [
             'name' => 'required',
@@ -125,7 +125,9 @@ class HomeController extends Controller
         //  Store data in database
         ContactUs::create($request->all());
 
-        Mail::send(
+        /**
+         * 
+         *         Mail::send(
             'email.mail',
             array(
                 'name' => $request->get('name'),
@@ -138,11 +140,16 @@ class HomeController extends Controller
                 $message->to('salam.hielz@gmail.com', 'Admin')->subject("رسالة من نموذج اتصل بنا");
             }
         );
+         * 
+         */
 
         $details = [
             'icon' => 'bi-envelope',
             'title' => 'لقد تلقى موقع السلام هيلز رسالة جديدة',
-            'body' => $request->get('message'),
+            'name' => 'الاسم:' . $request->get('name'),
+            'user_email' => "البريد الإلكتروني:" . $request->get('email'),
+            'phone' =>  "رقم الجوال:" . $request->get('phone'),
+            'body' => "تفاصيل:" . $request->get('message'),
             'box-style' => 'box-information',
             'actionText' => "الانتقال إلى صفحة الرسائل",
             'actionURL' => url('/all-contactus-messages'),

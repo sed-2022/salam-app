@@ -42,6 +42,9 @@ class UserNotification extends Notification
     {
         return (new MailMessage)
                 ->line($this->details['title'])
+                ->line($this->details['name'])
+                ->line($this->details['user_email'])
+                ->line($this->details['phone'])
                 ->line($this->details['body'])
                 ->action($this->details['actionText'], $this->details['actionURL']);
     }
